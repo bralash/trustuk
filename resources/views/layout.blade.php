@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html class="scheme_original" lang="en-US">
 <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <title>@yield('page_title') | Trustuk Fund Group</title>
     <link href="http://fonts.googleapis.com/css?family=Poppins:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic%7CLora:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic&#038;subset=latin,latin-ext&#038;" media="all" property="stylesheet" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{URL::asset('css/fontello/css/fontello.css')}}">

@@ -17,7 +17,7 @@
                             <br>
                         </div>
                         <div class="tp-caption trx-no-css tp-resizeme" data-end="8700" data-height="['auto']" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-visibility="['on','on','off','off']" data-voffset="167" data-width="['auto']" data-x="30" data-y="center" id="slide-7-layer-3">
-                            <a class="sc_button sc_button_style_filled sc_button_size_medium" href="about-us.html">Read more</a>&nbsp;&nbsp;
+                            <a class="sc_button sc_button_style_filled sc_button_size_medium" href="{{url::to('/about')}}">Read more</a>&nbsp;&nbsp;
                         </div>
                     </li>
                     <li data-description="" data-easein="default,default,default,default" data-easeout="default,default,default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-10" data-masterspeed="default,default,default,default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0,0,0,0" data-saveperformance="off" data-slotamount="default,default,default,default" data-thumb="images/1920x1079-100x50.jpg" data-title="Slide" data-transition="slidingoverlayup,slidingoverlaydown,slidingoverlayright,slidingoverlayleft">
@@ -31,7 +31,7 @@
                             neeeds, achieving superior returns for them.
                         </div>
                         <div class="tp-caption trx-no-css tp-resizeme" data-end="8700" data-height="['auto']" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-visibility="['on','on','off','off']" data-voffset="167" data-width="['auto']" data-x="30" data-y="center" id="slide-10-layer-3">
-                            <a class="sc_button sc_button_style_filled sc_button_size_medium" href="about-us.html">Read more</a>&nbsp;&nbsp;
+                            <a class="sc_button sc_button_style_filled sc_button_size_medium" href="{{url::to('/about')}}">Read more</a>&nbsp;&nbsp;
                         </div>
                     </li>
                     <li data-description="" data-easein="default,default,default,default" data-easeout="default,default,default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-11" data-masterspeed="default,default,default,default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0,0,0,0" data-saveperformance="off" data-slotamount="default,default,default,default" data-thumb="images/1920x1079-100x50.jpg" data-title="Slide" data-transition="slidingoverlayup,slidingoverlaydown,slidingoverlayright,slidingoverlayleft">
@@ -44,7 +44,7 @@
                             decisions about whne and where to invest.
                         </div>
                         <div class="tp-caption trx-no-css tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="274" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-visibility="['on','on','off','off']" data-voffset="167" data-width="['auto']" data-x="right" data-y="center" id="slide-11-layer-3">
-                            <a class="sc_button sc_button_style_filled sc_button_size_medium" href="about-us.html">Read more</a>&nbsp;&nbsp;
+                            <a class="sc_button sc_button_style_filled sc_button_size_medium" href="{{url::to('/about')}}">Read more</a>&nbsp;&nbsp;
                         </div>
                     </li>
                 </ul>
