@@ -2,6 +2,7 @@
 <html class="scheme_original" lang="en-US">
 <head>
     <title>@yield('page_title') | Trustuk Fund Group</title>
+    <link href="http://fonts.googleapis.com/css?family=Poppins:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic%7CLora:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic&#038;subset=latin,latin-ext&#038;" media="all" property="stylesheet" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{URL::asset('css/fontello/css/fontello.css')}}">
     <link href="{{URL::asset('js/vendor/instagram/sb-instagram.min.css')}}" rel='stylesheet'>
     <link href="{{URL::asset('js/vendor/essgrid/ess-grid.css')}}" rel='stylesheet'>
@@ -45,32 +46,7 @@
                                 <li class="menu_user_register_login">
                                     <a class="popup_link popup_login_link icon-key-light" href="#popup_login">Login</a> or <a class="popup_link popup_register_link" href="#popup_registration">Register</a>
                                 </li>
-                                <li class="menu_user_cart">
-                                    <a class="top_panel_cart_button sf-with-ul" href="#"><span class="contact_icon icon-bag"></span> <span class="cart_items">3</span></a>
-                                    <ul class="widget_area sidebar_cart sidebar fadeOut animated fast">
-                                        <li>
-                                            <div class="widget woocommerce widget_shopping_cart">
-                                                <div class="hide_cart_widget_if_empty">
-                                                    <div class="widget_shopping_cart_content">
-                                                        <ul class="cart_list product_list_widget">
-                                                            <li class="mini_cart_item">
-                                                                <a class="remove" href="#">×</a> <a href="single-product.html"><img alt="" src="images/180x180.jpg">Finance Equations &amp; Answers Jamie C. Martin&nbsp;</a> <span class="quantity">1 ×<span class="amount"><span>$</span>69.99</span></span>
-                                                            </li>
-                                                            <li class="mini_cart_item">
-                                                                <a class="remove" href="#">×</a> <a href="single-product.html"><img alt="" src="images/180x180.jpg">The Richest Man in Babylon Elin Hinderbrand&nbsp;</a> <span class="quantity">1 × <span class="amount"><span>$</span>71.99</span></span>
-                                                            </li>
-                                                            <li class="mini_cart_item">
-                                                                <a class="remove" href="#">×</a> <a href="single-product.html"><img alt="" src="images/180x180.jpg">Financial Strategy Karen Berman&nbsp;</a> <span class="quantity">1 × <span class="amount"><span>$</span>69.99</span></span>
-                                                            </li>
-                                                        </ul>
-                                                        <p class="total"><strong>Subtotal:</strong> <span class="amount"><span>$</span>211.97</span></p>
-                                                        <p class="buttons"><a class="button" href="cart.html">View Cart</a> <a class="button" href="checkout.html">Checkout</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
+
                             </ul>
                         </div>
                     </div>
@@ -318,7 +294,7 @@
                 <div class="columns_wrap no_margins custom_columns_1">
                     <div class="column-1_2">
                         <div class="sc_googlemap" data-style="dark" data-zoom="12" id="sc_googlemap_1">
-                            <div class="sc_googlemap_marker" data-address="1, Central Road, Chicago" data-description="1, Central Road, Chicago" data-latlng="" data-point="images/map_pointer.png" data-title="1, Central Road, Chicago"></div>
+                            <div class="sc_googlemap_marker" data-address="123 Cheetham Hill Rd, Manchester M8 8PZ, UK" data-description="123 Cheetham Hill Rd, Manchester M8 8PZ, UK" data-latlng="" data-point="images/map_pointer_alt.png" data-title="1, Central Road, Chicago"></div>
                         </div>
                     </div>
                     <div class="column-1_2">
@@ -578,6 +554,6 @@
 <script src='js/custom/_messages.js' type='text/javascript'></script>
 <script src='js/vendor/magnific-popup/jquery.magnific-popup.min.js' type='text/javascript'></script>
 <script src='js/vendor/swiper/swiper.js' type='text/javascript'></script>
-<script src='http://maps.google.com/maps/api/js?key=' type='text/javascript'></script>
+<script src='http://maps.google.com/maps/api/js?key=AIzaSyAy7roi6ZA1xvSrPRohoJUStjYBehMMsOs' type='text/javascript'></script>
 </body>
 </html>

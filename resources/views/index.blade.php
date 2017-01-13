@@ -8,14 +8,12 @@
             <div class="rev_slider fullscreenbanner" data-version="5.2.6" id="rev_slider_3_1">
                 <ul>
                     <li data-description="" data-easein="default,default,default,default" data-easeout="default,default,default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-7" data-masterspeed="default,default,default,default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0,0,0,0" data-saveperformance="off" data-slotamount="default,default,default,default" data-thumb="images/1920x1079-100x50.jpg" data-title="Slide" data-transition="slidingoverlayup,slidingoverlaydown,slidingoverlayright,slidingoverlayleft">
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/1920x1079.jpg" title="1920x1079">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slider_5.jpg" title="1920x1079">
                         <div class="tp-caption trx-big-dark tp-resizeme" data-end="8700" data-height="['auto']" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-voffset="-40" data-width="['auto']" data-x="30" data-y="center" id="slide-7-layer-1">
                             Our Vision
                         </div>
                         <div class="tp-caption trx-norm-dark tp-resizeme" data-end="8700" data-height="['auto']" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-visibility="['on','on','on','off']" data-voffset="76" data-width="['auto']" data-x="30" data-y="center" id="slide-7-layer-2">
-                            We aspire to be the leading client-centric financial <br> advisory Institution around the globe.
-                            We commit to a culture that aligns risks and rewards, <br> attracts and develops talented individuals,
-                            fosters teamwork and partnership and is sensitive to <br> the societies in which we operate.
+                            We aspire to be the leading client-centric financial advisory <br> Institution around the globe.
                             <br>
                         </div>
                         <div class="tp-caption trx-no-css tp-resizeme" data-end="8700" data-height="['auto']" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-visibility="['on','on','off','off']" data-voffset="167" data-width="['auto']" data-x="30" data-y="center" id="slide-7-layer-3">
@@ -23,7 +21,7 @@
                         </div>
                     </li>
                     <li data-description="" data-easein="default,default,default,default" data-easeout="default,default,default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-10" data-masterspeed="default,default,default,default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0,0,0,0" data-saveperformance="off" data-slotamount="default,default,default,default" data-thumb="images/1920x1079-100x50.jpg" data-title="Slide" data-transition="slidingoverlayup,slidingoverlaydown,slidingoverlayright,slidingoverlayleft">
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/1920x1079.jpg" title="1920x1079">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slider_2.jpg" title="1920x1079">
                         <div class="tp-caption trx-big-dark tp-resizeme" data-end="8700" data-height="['auto']" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-voffset="-40" data-width="['auto']" data-x="30" data-y="center" id="slide-10-layer-1">
                             Our Mission
                         </div>
@@ -37,7 +35,7 @@
                         </div>
                     </li>
                     <li data-description="" data-easein="default,default,default,default" data-easeout="default,default,default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-11" data-masterspeed="default,default,default,default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0,0,0,0" data-saveperformance="off" data-slotamount="default,default,default,default" data-thumb="images/1920x1079-100x50.jpg" data-title="Slide" data-transition="slidingoverlayup,slidingoverlaydown,slidingoverlayright,slidingoverlayleft">
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/1920x1079.jpg" title="1920x1079">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slider_3.jpg" title="1920x1079">
                         <div class="tp-caption trx-big-dark tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="72" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-voffset="-40" data-width="['auto']" data-x="right" data-y="center" id="slide-11-layer-1">
                             Our Strategy
                         </div>
