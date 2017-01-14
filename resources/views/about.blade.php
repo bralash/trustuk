@@ -1,7 +1,7 @@
 @extends('layout')
 @section('page_title', 'About Us')
 @section('panel_style','top_panel_style_7')
-@section('content')
+@section('slider')
 
     <section class="top_panel_image top_panel_image_1">
         <div class="top_panel_image_hover"></div>
