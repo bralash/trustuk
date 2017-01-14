@@ -117,7 +117,7 @@
                             <div class="slides swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="sc_testimonial_item">
-                                        <div class="sc_testimonial_avatar"><img alt="" src="images/quotes.png"></div>
+                                        <div class="sc_testimonial_avatar"><img alt="" src="{{URL::asset('images/quotes.png')}}"></div>
                                         <div class="sc_testimonial_content">
                                             <p>
                                                 Trustuk Fund Group has consistently demonstrated excellence in every single
@@ -134,7 +134,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="sc_testimonial_item">
-                                        <div class="sc_testimonial_avatar"><img alt="" src="images/quotes.png"></div>
+                                        <div class="sc_testimonial_avatar"><img alt="" src="{{URL::asset('images/quotes.png')}}"></div>
                                         <div class="sc_testimonial_content">
                                             <p>
                                                 We were looking for an investment advisor who has comprehensive investment
@@ -152,7 +152,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="sc_testimonial_item">
-                                        <div class="sc_testimonial_avatar"><img alt="" src="images/quotes.png"></div>
+                                        <div class="sc_testimonial_avatar"><img alt="" src="{{URL::asset('images/quotes.png')}}"></div>
                                         <div class="sc_testimonial_content">
                                             <p>
                                                 When the economic crisis in 2008 took place,  my wife and I noticed that our
@@ -177,7 +177,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="sc_testimonial_item">
-                                        <div class="sc_testimonial_avatar"><img alt="" src="images/quotes.png"></div>
+                                        <div class="sc_testimonial_avatar"><img alt="" src="{{URL::asset('images/quotes.png')}}"></div>
                                         <div class="sc_testimonial_content">
                                             <p>
                                                 My experience with Trustuk Fund Group has been a very positive one; the
@@ -191,7 +191,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="sc_testimonial_item">
-                                        <div class="sc_testimonial_avatar"><img alt="" src="images/quotes.png"></div>
+                                        <div class="sc_testimonial_avatar"><img alt="" src="{{URL::asset('images/quotes.png')}}"></div>
                                         <div class="sc_testimonial_content">
                                             <p>
                                                 Trustuk Fund Group is a very professional investment advisor team and I
@@ -211,7 +211,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="sc_testimonial_item">
-                                        <div class="sc_testimonial_avatar"><img alt="" src="images/quotes.png"></div>
+                                        <div class="sc_testimonial_avatar"><img alt="" src="{{URL::asset('images/quotes.png')}}"></div>
                                         <div class="sc_testimonial_content">
                                             <p>
                                                 There is a huge opportunity cost letting your savings languish, undirected,
@@ -240,7 +240,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="sc_testimonial_item">
-                                        <div class="sc_testimonial_avatar"><img alt="" src="images/quotes.png"></div>
+                                        <div class="sc_testimonial_avatar"><img alt="" src="{{URL::asset('images/quotes.png')}}"></div>
                                         <div class="sc_testimonial_content">
                                             <p>
                                                 Trustuk Fund Group Investments is the most knowledgeable, professional, and
