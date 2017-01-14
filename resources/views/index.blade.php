@@ -57,7 +57,7 @@
 
 @endsection
 
-@section('first_content')
+@section('welcome')
 
     <div class="sc_section custom_bg_2">
         <div class="content_wrap">
@@ -100,7 +100,102 @@
 
 @endsection
 
-@section('forth_content')
+@section('stats')
+
+    <div class="sc_section skills_bg_1">
+        <div class="content_wrap">
+            <div class="sc_empty_space" data-height="3.7em"></div>
+            <h2 class="sc_title sc_title_regular sc_align_center margin_top_huge margin_bottom_null text_align_center custom_cl_4">We are always ahead.</h2>
+            <h2 class="sc_title sc_title_underline sc_align_center margin_top_null text_align_center custom_cl_4">Professional Solutions for Your Business.</h2>
+            <div class="sc_skills sc_skills_counter margin_top_medium margin_bottom_huge" data-caption="Skills" data-type="counter">
+                <div class="columns_wrap sc_skills_columns sc_skills_columns_4">
+                    <div class="sc_skills_column column-1_4">
+                        <div class="sc_skills_item sc_skills_style_4">
+                            <div class="sc_skills_info_2">
+                                <div class="sc_skills_label">
+                                    clients
+                                </div>
+                            </div>
+                            <div class="sc_skills_count">
+                                <div class="sc_skills_total" data-duration="2940" data-ed="" data-max="100" data-speed="30" data-start="0" data-step="1" data-stop="98">
+                                    0
+                                </div>
+                            </div>
+                            <div class="sc_skills_info">
+                                <div class="sc_skills_label">
+                                    Satisfied Clients & Partners
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sc_skills_column column-1_4">
+                        <div class="sc_skills_item sc_skills_style_4">
+                            <div class="sc_skills_info_2">
+                                <div class="sc_skills_label">
+                                    Investments
+                                </div>
+                            </div>
+                            <div class="sc_skills_count">
+                                <div class="sc_skills_total" data-duration="2475" data-ed="" data-max="256" data-speed="29" data-start="0" data-step="3" data-stop="256">
+                                    0
+                                </div>
+                            </div>
+                            <div class="sc_skills_info">
+                                <div class="sc_skills_label">
+                                    Investments
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sc_skills_column column-1_4">
+                        <div class="sc_skills_item sc_skills_style_4">
+                            <div class="sc_skills_info_2">
+                                <div class="sc_skills_label">
+                                    Deals
+                                </div>
+                            </div>
+                            <div class="sc_skills_count">
+                                <div class="sc_skills_total" data-duration="325" data-ed="" data-max="256" data-speed="15" data-start="0" data-step="3" data-stop="65">
+                                    0
+                                </div>
+                            </div>
+                            <div class="sc_skills_info">
+                                <div class="sc_skills_label">
+                                    Deals & Contracts Made
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sc_skills_column column-1_4">
+                        <div class="sc_skills_item sc_skills_style_4">
+                            <div class="sc_skills_info_2">
+                                <div class="sc_skills_label">
+                                    Coffee
+                                </div>
+                            </div>
+                            <div class="sc_skills_count">
+                                <div class="sc_skills_total" data-duration="3158" data-ed="" data-max="842" data-speed="30" data-start="0" data-step="8" data-stop="842">
+                                    0
+                                </div>
+                            </div>
+                            <div class="sc_skills_info">
+                                <div class="sc_skills_label">
+                                    Cofee Cups Killed
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc_skills_button sc_item_button">
+                    <a class="sc_button sc_button_style_filled sc_button_size_medium" href="{{URL::to('/about')}}">More About Us</a>
+                </div>
+            </div>
+            <div class="sc_empty_space" data-height="2em"></div>
+        </div>
+
+@endsection
+
+@section('testimonial')
 
     <div class="sc_section custom_bg_2">
         <div class="sc_empty_space" data-height="1em"></div>
