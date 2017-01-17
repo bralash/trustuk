@@ -109,6 +109,7 @@
                 </div>
             </div>
         </header>
+        @yield('hero')
         <nav class="menu_pushy_nav_area pushy pushy-left scheme_dark">
             <div class="pushy_inner">
                 <a class="close-pushy" href="#"></a>

@@ -13,3 +13,6 @@
 
 Route::get('/', ['uses' => 'PagesController@index']);
 Route::get('/about', ['uses' => 'PagesController@about']);
+Route::get('/services', ['uses' => 'PagesController@services']);
+Route::get('/faq', ['uses' => 'PagesController@faq']);
+Route::get('/contact', ['uses' => 'PagesController@contact']);

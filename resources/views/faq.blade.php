@@ -1,48 +1,55 @@
-<section class="slider_wrap slider_fullwide slider_engine_revo slider_alias_home-1">
-    <div class="forcefullwidth_wrapper_tp_banner" id="rev_slider_1_1_forcefullwidth" style="position:relative;width:100%;height:auto;margin-top:0px;margin-bottom:0px"><div class="rev_slider_wrapper fullscreen-container tp-mouseover" id="rev_slider_1_1_wrapper" style="height: 488px; margin-top: 0px; margin-bottom: 0px; position: absolute; max-height: none; overflow: visible; width: 1349px; left: 0px;">
-            <div class="rev_slider fullscreenbanner revslider-initialised tp-simpleresponsive" data-version="5.2.6" id="rev_slider_1_1" style="max-height: none; margin-top: 0px; margin-bottom: 0px; height: 100%;" data-slideactive="rs-1">
-                <ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;">
-                    <li data-description="" data-easein="default,default,default,default" data-easeout="default,default,default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1" data-masterspeed="default,default,default,default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0,0,0,0" data-saveperformance="off" data-slotamount="default,default,default,default" data-thumb="images/1920x1079-100x50.jpg" data-title="Slide" data-transition="slidingoverlayup,slidingoverlaydown,slidingoverlayright,slidingoverlayleft" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
-                        <div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img alt="" class="rev-slidebg defaultimg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" height="1079" src="images/1920x1079.jpg" title="1920x1079" width="1920">--><div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;images/1920x1079.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; z-index: 20; visibility: inherit; position: inherit; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" src="images/1920x1079.jpg"></div></div>
-                        <div class="tp-parallax-wrap" style="position: absolute; visibility: hidden; left: 428px; top: 199px; z-index: 1;"><div class="tp-loop-wrap" style="position:absolute;"><div class="tp-mask-wrap" style="position: absolute; overflow: visible; height: auto; width: auto;"><div class="tp-caption trx-big tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-voffset="-40" data-width="['auto']" data-x="center" data-y="center" id="slide-1-layer-1" style="visibility: hidden; transition: none; line-height: 45px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 500; font-size: 39px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-                                        Consulting &amp; Investment.
-                                    </div></div></div></div>
-                        <div class="tp-parallax-wrap" style="position: absolute; visibility: hidden; left: 490px; top: 251px; z-index: 1;"><div class="tp-loop-wrap" style="position:absolute;"><div class="tp-mask-wrap" style="position: absolute; overflow: visible; height: auto; width: auto;"><div class="tp-caption trx-norm tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-visibility="['on','on','on','off']" data-voffset="46" data-width="['auto']" data-x="center" data-y="center" id="slide-1-layer-2" style="visibility: hidden; transition: none; line-height: 19px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 11px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-                                        Preparing your money is a daunting challenge for today's investors.<br>
-                                        Will give you a complete account of the system.
-                                    </div></div></div></div>
-                        <div class="tp-parallax-wrap" style="position: absolute; visibility: hidden; left: 592px; top: 308px; z-index: 1;"><div class="tp-loop-wrap" style="position:absolute;"><div class="tp-mask-wrap" style="position: absolute; overflow: visible; height: auto; width: auto;"><div class="tp-caption trx-no-css tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-visibility="['on','on','off','off']" data-voffset="137" data-width="['auto']" data-x="center" data-y="center" id="slide-1-layer-3" style="visibility: hidden; transition: none; line-height: 12px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 8px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-                                        <a class="sc_button sc_button_style_filled sc_button_size_medium" href="about-us.html" style="transition: none; line-height: 9px; border-width: 0px; margin: 0px; padding: 8px 22px; letter-spacing: 0px; font-weight: 500; font-size: 7px;">Read more</a>&nbsp;&nbsp;<a class="sc_button sc_button_style_filled2 sc_button_size_medium light_color" href="#" style="transition: none; line-height: 9px; border-width: 0px; margin: 0px; padding: 8px 22px; letter-spacing: 0px; font-weight: 500; font-size: 7px;">Purchase</a>
-                                    </div></div></div></div>
-                    </li>
-                    <li data-description="" data-easein="default,default,default,default" data-easeout="default,default,default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-2" data-masterspeed="default,default,default,default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0,0,0,0" data-saveperformance="off" data-slotamount="default,default,default,default" data-thumb="images/1920x1076-100x50.jpg" data-title="Slide" data-transition="slidingoverlayright,slidingoverlayleft,slidingoverlayup,slidingoverlaydown" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
-                        <div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;"><!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img alt="" class="rev-slidebg defaultimg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" height="1076" src="images/1920x1076.jpg" title="1920x1076" width="1920">--><div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;images/1920x1076.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="images/1920x1076.jpg"></div></div>
-                        <div class="tp-parallax-wrap" style="position:absolute;visibility:hidden"><div class="tp-loop-wrap" style="position:absolute;"><div class="tp-mask-wrap" style="position:absolute"><div class="tp-caption trx-big tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-voffset="-40" data-width="['auto']" data-x="center" data-y="center" id="slide-2-layer-1" style="visibility: hidden;">
-                                        The Best Business Support
-                                    </div></div></div></div>
-                        <div class="tp-parallax-wrap" style="position:absolute;visibility:hidden"><div class="tp-loop-wrap" style="position:absolute;"><div class="tp-mask-wrap" style="position:absolute"><div class="tp-caption trx-norm tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-visibility="['on','on','on','off']" data-voffset="46" data-width="['auto']" data-x="center" data-y="center" id="slide-2-layer-2" style="visibility: hidden;">
-                                        Preparing your money is a daunting challenge for today's investors.<br>
-                                        Will give you a complete account of the system.
-                                    </div></div></div></div>
-                        <div class="tp-parallax-wrap" style="position:absolute;visibility:hidden"><div class="tp-loop-wrap" style="position:absolute;"><div class="tp-mask-wrap" style="position:absolute"><div class="tp-caption trx-no-css tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-visibility="['on','on','off','off']" data-voffset="137" data-width="['auto']" data-x="center" data-y="center" id="slide-2-layer-3" style="visibility: hidden;">
-                                        <a class="sc_button sc_button_style_filled sc_button_size_medium" href="about-us.html">Read more</a>
-                                    </div></div></div></div>
-                    </li>
-                    <li data-description="" data-easein="default,default,default,default" data-easeout="default,default,default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-3" data-masterspeed="default,default,default,default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0,0,0,0" data-saveperformance="off" data-slotamount="default,default,default,default" data-thumb="images/1920x1076-100x50.jpg" data-title="Slide" data-transition="slidingoverlayup,slidingoverlaydown,slidingoverlayright,slidingoverlayleft" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
-                        <div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;"><!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img alt="" class="rev-slidebg defaultimg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" height="1076" src="images/1920x1076.jpg" title="1920x1076" width="1920">--><div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;images/1920x1076.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="images/1920x1076.jpg"></div></div>
-                        <div class="tp-parallax-wrap" style="position:absolute;visibility:hidden"><div class="tp-loop-wrap" style="position:absolute;"><div class="tp-mask-wrap" style="position:absolute"><div class="tp-caption trx-big tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-voffset="-40" data-width="['auto']" data-x="center" data-y="center" id="slide-3-layer-1" style="visibility: hidden;">
-                                        We Have Talented Team
-                                    </div></div></div></div>
-                        <div class="tp-parallax-wrap" style="position:absolute;visibility:hidden"><div class="tp-loop-wrap" style="position:absolute;"><div class="tp-mask-wrap" style="position:absolute"><div class="tp-caption trx-norm tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-visibility="['on','on','on','off']" data-voffset="46" data-width="['auto']" data-x="center" data-y="center" id="slide-3-layer-2" style="visibility: hidden;">
-                                        Preparing your money is a daunting challenge for today's investors.<br>
-                                        Will give you a complete account of the system.
-                                    </div></div></div></div>
-                        <div class="tp-parallax-wrap" style="position:absolute;visibility:hidden"><div class="tp-loop-wrap" style="position:absolute;"><div class="tp-mask-wrap" style="position:absolute"><div class="tp-caption trx-no-css tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-visibility="['on','on','off','off']" data-voffset="137" data-width="['auto']" data-x="center" data-y="center" id="slide-3-layer-3" style="visibility: hidden;">
-                                        <a class="sc_button sc_button_style_filled sc_button_size_medium" href="about-us.html">Read more</a>&nbsp;&nbsp;<a class="sc_button sc_button_style_filled2 sc_button_size_medium light_color" href="contacts.html">Contact Us</a>
-                                    </div></div></div></div>
-                    </li>
-                </ul>
-                <div class="tp-bannertimer" style="width: 66.3889%; visibility: visible; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"></div>
-                <div class="tp-loader off" style="display: none;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="tp-leftarrow tparrows custom  noSwipe" style="top: 50%; transform: matrix(1, 0, 0, 1, 50, -24); left: 0px;"></div><div class="tp-rightarrow tparrows custom  noSwipe" style="top: 50%; transform: matrix(1, 0, 0, 1, -98, -24); left: 100%;"></div><div class="tp-bullets custom horizontal nav-pos-hor-center nav-pos-ver-bottom nav-dir-horizontal noSwipe" style="width: 43px; height: 9px; top: 100%; transform: matrix(1, 0, 0, 1, -21, -52); left: 50%;"><div class="tp-bullet selected" style="left: 0px; top: 0px;"></div><div class="tp-bullet" style="left: 17px; top: 0px;"></div><div class="tp-bullet" style="left: 34px; top: 0px;"></div></div></div>
-        </div><div class="tp-fullwidth-forcer" style="width: 100%; height: 488px;"></div></div>
-</section>
+@extends('layout.app')
+@section('page_title','FAQs')
+@section('panel_style','top_panel_style_7')
+@section('hero')
+    <section class="top_panel_image top_panel_image_1" style="background-image: url(../images/faq.jpg);">
+        <div class="top_panel_image_hover"></div>
+        <div class="top_panel_image_header">
+            <h1 class="top_panel_image_title">Frequently Asked Questions</h1>
+            <div class="breadcrumbs">
+                <a class="breadcrumbs_item home" href="{{URL::to('/')}}">Home</a> <span class="breadcrumbs_delimiter"></span> <span class="breadcrumbs_item current">FAQ</span>
+            </div>
+        </div>
+    </section>
+@endsection
+
+@section('welcome')
+    <div class="sc_section custom_bg_2">
+        <div class="content_wrap">
+            <div class="sc_empty_space" data-height="2.2em"></div>
+            <div class="sc_section margin_top_huge margin_bottom_huge">
+                <div class="sc_section_inner">
+                    <h2 class="sc_section_title sc_item_title">Welcome to Trustuk Fund Group LTD</h2>
+                    <div class="sc_section_descr sc_item_descr">
+                        Welcome to Trustuk Fund Group, one of the few legal companies in <br>
+                        the field of mutual fund investment.
+                    </div>
+                    <div class="sc_empty_space" data-height="0.7em"></div>
+                    <div class="columns_wrap sc_columns margin_top_tiny">
+                        <div class="sc_empty_space" data-height="1.5em"></div>
+                        <span>
+                            Welcome to Trustuk Fund Group, one of the few legal companies in the field of
+                            mutual fund investment. In a world of dynamics and innovations, the online
+                            investments are becoming easier and more accessible to everyone. Many
+                            investors have been doubting the legitimacy of online investments, after all,
+                            more than many are just scamming fund without punishments.
+                        </span>
+                        <p>
+                            Meanwhile, thousands of investment programs are coming online every minute which
+                            turns to be too difficult to judge. Trustuk Fund Group LTD is separated from those
+                            sites and this is because Trustuk Fund Group LTD is a legally registered investment
+                            company. All our business operations are monitored by both law and bank, which makes
+                            all our capital stable and safe at the same time. That's what other online high-profit
+                            companies can't beat.
+                        </p>
+                        <p>
+                            Finally, we have local networked centers in Singapore, Washington DC, South Africa, Ghana,
+                            Bukina Faso, Nigeria, France and Cyprus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="sc_empty_space" data-height="2em"></div>
+        </div>
+    </div>
+@endsection
