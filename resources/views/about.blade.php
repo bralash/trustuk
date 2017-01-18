@@ -175,4 +175,176 @@
         </div>
     @endsection
 
+    @section('testimonial')
+        <div class="sc_section custom_bg_2">
+            <div class="content_wrap">
+                <div class="sc_empty_space" data-height="2em" style="height: 2em;"></div>
+                <div class="sc_services_wrap">
+                    <div class="sc_services sc_services_style_services-1 sc_services_type_icons_img margin_top_huge margin_bottom_huge">
+                        <h2 class="sc_services_title sc_item_title">Our Strategy</h2>
+                        <div class="sc_services_descr sc_item_descr">
+                            Trustuk Fund Group LTD uses six risk filters to guide<br>
+                            strategy decisions about when and where to invest.
+                        </div>
+                        <div class="sc_columns columns_wrap">
+                            <p>
+                                Trustuk Fund Group LTD uses six risk filters to guide strategy
+                                decisions about when and where to invest. The first two - <b>international
+                                connectivity</b> and <b>international development</b> - determine whether the business
+                                is strategically relevant and futuristically robust.
+                            </p>
+                            <p>
+                                The next three - <b>profitability, efficiency</b> and <b>liquidity</b> - determine whether
+                                the financial position of the business is adequately attractive and resilient
+                                to be able wither economic and social storm. The sixth filter - <b>the risk of financial
+                                crime</b> - governs our activities in high-risk industries and jurisdictions, and
+                                is applied to protect us by restricting the scope of our business where appropriate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.sc_services_wrap -->
+        </div>
+    @endsection
+
+    @section('gallery')
+        <div class="sc_section">
+            <div class="columns_wrap sc_columns no_margins width_1_3" data-equal-height=".sc_column_item">
+                <div class="column-1_3 sc_column_item text_align_center first" style="height: 752px;">
+                    <div class="sc_column_item_inner" id="video_player">
+                        <div class="sc_popup mfp-with-anim mfp-hide" id="video_go">
+                            <div class="sc_video_player">
+                                <div class="sc_video_frame" data-height="659" data-width="1170">
+                                    <iframe class="video_frame" src="https://www.youtube.com/watch?v=E8CkCgJnqes"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sc_section extra_vertical_align aligncenter">
+                            <div class="sc_section_inner">
+                                <div class="sc_section_content_wrap">
+                                    <a class="sc_button sc_button_style_icon sc_button_size_large sc_button_iconed sc_popup_link demo_go margin_bottom_tiny- icon-play inited" href="#video_go"></a>
+                                    <div class="sc_services_wrap scheme_dark">
+                                        <div class="sc_services sc_services_style_services-2 sc_services_type_icons margin_top_tiny-">
+                                            <div class="sc_services_item">
+                                                <div class="sc_services_item_featured post_featured"></div>
+                                                <div class="sc_services_item_content">
+                                                    <h4 class="sc_services_item_title">View Our Presentation Video</h4><span class="sc_services_item_subtitle">We Love Or Clients</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-2_3 sc_column_item" style="height: 752px;">
+                    <div class="sc_empty_space" data-height="2.2em" style="height: 2.2em;"></div>
+                    <div class="sc_services_wrap">
+                        <div class="sc_services sc_services_style_services-2 sc_services_type_icons_img margin_top_huge margin_right_medium margin_bottom_huge margin_left_medium">
+                            <h2 class="sc_services_title sc_item_title">Summary of Our Strategy</h2>
+                            <div class="sc_services_descr sc_item_descr">
+                                We use six risk filters to guide strategy decisions
+                            </div>
+                            <div class="sc_columns columns_wrap">
+                                <div class="column-1_3 column_padding_bottom">
+                                    <div class="sc_services_item">
+                                        <div class="top_post_image">
+                                            <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_01.png"></a>
+                                        </div>
+                                        <div class="sc_services_item_content">
+                                            <h4 class="sc_services_item_title"><a href="single-post.html">International Connectivity</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column-1_3 column_padding_bottom">
+                                    <div class="sc_services_item">
+                                        <div class="top_post_image">
+                                            <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_02.png"></a>
+                                        </div>
+                                        <div class="sc_services_item_content">
+                                            <h4 class="sc_services_item_title"><a href="single-post.html">International Development</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column-1_3 column_padding_bottom">
+                                    <div class="sc_services_item">
+                                        <div class="top_post_image">
+                                            <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_03.png"></a>
+                                        </div>
+                                        <div class="sc_services_item_content">
+                                            <h4 class="sc_services_item_title"><a href="single-post.html">Profitability</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column-1_3 column_padding_bottom">
+                                    <div class="sc_services_item">
+                                        <div class="top_post_image">
+                                            <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_06.png"></a>
+                                        </div>
+                                        <div class="sc_services_item_content">
+                                            <h4 class="sc_services_item_title"><a href="single-post.html">Efficiency</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column-1_3 column_padding_bottom">
+                                    <div class="sc_services_item">
+                                        <div class="top_post_image">
+                                            <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_05.png"></a>
+                                        </div>
+                                        <div class="sc_services_item_content">
+                                            <h4 class="sc_services_item_title"><a href="single-post.html">Liquidity</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column-1_3 column_padding_bottom">
+                                    <div class="sc_services_item">
+                                        <div class="top_post_image">
+                                            <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_04.png"></a>
+                                        </div>
+                                        <div class="sc_services_item_content">
+                                            <h4 class="sc_services_item_title"><a href="single-post.html">Financial Crime</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sc_empty_space" data-height="0.3em" style="height: 0.3em;"></div>
+                </div>
+            </div>
+        </div>
+    @endsection
+
+    @section('advice')
+        <div class="sc_section custom_bg_2">
+            <div class="content_wrap">
+                <div class="sc_empty_space" data-height="2em" style="height: 2em;"></div>
+                <div class="sc_services_wrap">
+                    <div class="sc_services sc_services_style_services-1 sc_services_type_icons_img margin_top_huge margin_bottom_huge">
+                        <h2 class="sc_services_title sc_item_title">Our Global Business Principal</h2>
+                        <div class="sc_services_descr sc_item_descr">
+                            The core principal is the foundation of our <br>
+                            business as we work to understand our clients' needs
+                        </div>
+                        <div class="sc_columns columns_wrap">
+                            <p>
+                                Throughout our long and distinguished history, we have been
+                                steadfastly committed to putting our clients' interests first.
+                                This fiduciary responsiblity defines our relationship with clients
+                                and informs the basis of every decision we make on their behalf.
+                            </p>
+                            <p>
+                                This core principle is the foundation of our business as we work to
+                                understand our clients' needs, offer informed advice and execute
+                                strategies to generate excess returns and provide world-class
+                                client solutions
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.sc_services_wrap -->
+        </div>
+    @endsection
+
 @endsection
