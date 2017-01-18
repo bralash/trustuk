@@ -8211,7 +8211,7 @@ h6 .wpb_text_column p {
 
 /*Custom video player*/
 #video_player {
-	background-image: url(../images/960x650.jpg);
+	background-image: url(../images/bg_video.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
