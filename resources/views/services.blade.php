@@ -37,7 +37,7 @@
                                 and grouping them into one single HUGE investment, using those funds to invest
                                 into securities with major concentration in mutual funds and generate outstanding
                                 returns. We then share back a portion of our revenue to our customers, who made an
-                                investment.
+                                investment
                             </span>
                             <h4 class="sc_title sc_title_regular margin_top_small margin_bottom_tiny">Need Further Explanation?</h4>
                             <span>
