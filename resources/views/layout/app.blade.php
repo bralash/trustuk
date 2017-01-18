@@ -373,20 +373,7 @@
                 </div>
             </div>
         </footer><!-- /.footer_wrap -->
-        <footer class="footer_area_wrap scheme_dark">
-            <div class="footer_wrap_inner">
-                <div class="content_wrap">
-                    <div class="sc_line sc_line_position_center_center sc_line_style_solid margin_top_null margin_bottom_small"></div>
 
-                    <div class="sbi sbi_disable_mobile sbi_col_9" data-cols="9" data-id="3273597493" data-num="9" data-options='{&quot;sortby&quot;: &quot;none&quot;, &quot;headercolor&quot;: &quot;&quot;, &quot;imagepadding&quot;: &quot;0&quot;}' data-res="thumb" id="sb_instagram">
-                        <div id="sbi_images">
-                            <div class="sbi_loader"></div>
-                        </div>
-                        <div id="sbi_load"></div>
-                    </div>
-                </div>
-            </div>
-        </footer><!-- /.footer_area_wrap -->
         <div class="copyright_wrap copyright_style_soc scheme_dark">
             <div class="copyright_wrap_inner">
                 <div class="content_wrap">
