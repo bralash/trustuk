@@ -58,7 +58,7 @@
                     <div class="content_wrap">
                         <div class="contact_logo">
                             <div class="logo">
-                                <a href="{{URL::to('/')}}"><img alt="" class="logo_main" src="images/logo_alt.png"> <img alt="" class="logo_fixed" src="images/logo_alt.png"></a>
+                                <a href="{{URL::to('/')}}"><img alt="" class="logo_main" src="{{URL::asset('images/trustuk_logo.png')}}"> <img alt="" class="logo_fixed" src="{{URL::asset('images/trustuk_logo.png')}}"></a>
                             </div>
                         </div>
                         <div class="menu_main_wrap">
@@ -183,7 +183,7 @@
             <div class="content_wrap">
                 <div class="menu_button icon-menu"></div>
                 <div class="logo">
-                    <a href="index.html"><img alt="" class="logo_main" src="images/logo.png"></a>
+                    <a href="{{URL::to('/')}}"><img alt="" class="logo_main" src="{{URL::asset('images/trustuk_logo.png')}}"></a>
                 </div>
                 <div class="menu_main_cart top_panel_icon">
                     <a class="top_panel_cart_button" href="#"><span class="contact_icon icon-bag"></span> <span class="cart_items">3</span></a>
@@ -327,7 +327,7 @@
                         <aside class="column-1_3 widget widget_socials">
                             <div class="widget_inner">
                                 <div class="logo">
-                                    <a href="{{URL::asset('/')}}"><img alt="" class="logo_main" src="images/logo_footer.png"></a>
+                                    <a href="{{URL::asset('/')}}"><img alt="" class="logo_main" src="{{URL::asset('images/trustuk_logo.png')}}"></a>
                                 </div>
                                 <div class="logo_descr">
                                     Trustuk Fund Group is an investment company uniting <br>
@@ -403,7 +403,7 @@
             <input name="redirect_to" type="hidden" value="#">
             <div class="form_left">
                 <div class="logo">
-                    <a href="index.html"><img alt="" class="logo_login" src="images/logo_dark.png"></a>
+                    <a href="{{URL::to('/')}}"><img alt="" class="logo_login" src="{{URL::asset('images/trustuk_logo.png')}}"></a>
                 </div>
                 <div class="registration_socials_title">
                     You can register using your social profile
@@ -454,7 +454,7 @@
     <div class="form_wrap">
         <div class="form_right">
             <div class="logo">
-                <a href="#"><img alt="" class="logo_login" src="images/logo_dark.png"></a>
+                <a href="{{URL::to('/')}}"><img alt="" class="logo_login" src="{{URL::asset('images/trustuk_logo.png')}}"></a>
             </div>
             <div class="login_socials_title">
                 You can login using your social profile
