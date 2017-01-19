@@ -299,27 +299,7 @@
             @yield('clients')
             @yield('blog')
         </div><!-- </.page_content_wrap> -->
-        <footer class="footer_area_top_wrap scheme_dark">
-            <div class="footer_wrap_inner">
-                <div class="columns_wrap no_margins custom_columns_1">
-                    <div class="column-1_2">
-                        <div class="sc_googlemap" data-style="dark" data-zoom="12" id="sc_googlemap_1">
-                            <div class="sc_googlemap_marker" data-address="123 Cheetham Hill Rd, Manchester M8 8PZ, UK" data-description="123 Cheetham Hill Rd, Manchester M8 8PZ, UK" data-latlng="" data-point="images/map_pointer_alt.png" data-title="1, Central Road, Chicago"></div>
-                        </div>
-                    </div>
-                    <div class="column-1_2">
-                        <div class="sc_emailer sc_emailer_opened style_line margin_top_medium margin_bottom_small margin_left_small margin_right_small">
-                            <div class="lable">
-                                Newsletter
-                            </div>
-                            <form class="sc_emailer_form">
-                                <input class="sc_emailer_input" name="email" placeholder="Enter Your Email" type="text" value=""> <a class="sc_emailer_button" href="#" title="">Subscribe</a>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer><!-- /.footer_area_wrap -->
+
         <footer class="footer_wrap widget_area scheme_dark">
             <div class="footer_wrap_inner widget_area_inner">
                 <div class="content_wrap">
@@ -521,5 +501,19 @@
 <script src="{{URL::asset('js/vendor/magnific-popup/jquery.magnific-popup.min.js')}}" type='text/javascript'></script>
 <script src="{{URL::asset('js/vendor/swiper/swiper.js')}}" type='text/javascript'></script>
 <script src="{{URL::asset('http://maps.google.com/maps/api/js?key=AIzaSyBfet9MXzIA6JlJJBI69qS75Z46P9ZnBVQ')}}" type='text/javascript'></script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/587625dd12631a1069132486/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 </html>

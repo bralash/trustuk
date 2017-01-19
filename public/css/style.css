@@ -8251,3 +8251,6 @@ h6 .wpb_text_column p {
 	width: 270px;
 	height: 199px;
 }
+.questions h3 {
+    color: tomato !important;
+}

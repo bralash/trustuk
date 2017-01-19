@@ -50,3 +50,37 @@
         </div>
     </div>
 @endsection
+@section('main_services')
+    <div class="sc_section">
+        <div class="content_wrap">
+            <div class="sc_empty_space" data-height="2.2em" style="height: 2.2em;"></div>
+            <div class="sc_section margin_top_huge margin_bottom_huge">
+                <div class="sc_section_inner">
+                    <h2 class="sc_section_title sc_item_title">Mutual Funds</h2>
+                    <div class="sc_section_descr sc_item_descr">
+                        A Mutual Fund is a collective investment scheme that pools<br>
+                        the assets of its investors and invests the money on behalf <br>
+                        of those investors.
+                    </div>
+                    <div class="sc_empty_space" data-height="0.7em" style="height: 0.7em;"></div>
+                    <div class="columns_wrap sc_columns margin_top_tiny">
+                        <div class="column-1_2 sc_column_item">
+                            <div class="sc_empty_space" data-height="1.5em" style="height: 1.5em;"></div>
+                            <span>
+                                We are working as an investment pool, collecting multiple lower value investments
+                                and grouping them into one single HUGE investment, using those funds to invest
+                                into securities with major concentration in mutual funds and generate outstanding
+                                returns. We then share back a portion of our revenue to our customers, who made an
+                                investment
+                            </span>
+                            <h4 class="sc_title sc_title_regular margin_top_small margin_bottom_tiny">Need Further Explanation?</h4>
+                            <span>
+                                Still have questions that you would like answers to? Then leave us a message. <br></span> <a class="sc_button sc_button_style_filled sc_button_size_medium margin_top_small margin_bottom_small" href="{{URL::to('/contact')}}">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sc_empty_space" data-height="2em" style="height: 2em;"></div>
+        </div>
+    </div>
+@endsection

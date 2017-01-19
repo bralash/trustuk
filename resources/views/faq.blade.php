@@ -18,35 +18,55 @@
         <div class="content_wrap">
             <div class="sc_empty_space" data-height="2.2em"></div>
             <div class="sc_section margin_top_huge margin_bottom_huge">
-                <div class="sc_section_inner">
-                    <h2 class="sc_section_title sc_item_title">Welcome to Trustuk Fund Group LTD</h2>
-                    <div class="sc_section_descr sc_item_descr">
-                        Welcome to Trustuk Fund Group, one of the few legal companies in <br>
-                        the field of mutual fund investment.
-                    </div>
-                    <div class="sc_empty_space" data-height="0.7em"></div>
-                    <div class="columns_wrap sc_columns margin_top_tiny">
-                        <div class="sc_empty_space" data-height="1.5em"></div>
-                        <span>
-                            Welcome to Trustuk Fund Group, one of the few legal companies in the field of
-                            mutual fund investment. In a world of dynamics and innovations, the online
-                            investments are becoming easier and more accessible to everyone. Many
-                            investors have been doubting the legitimacy of online investments, after all,
-                            more than many are just scamming fund without punishments.
-                        </span>
-                        <p>
-                            Meanwhile, thousands of investment programs are coming online every minute which
-                            turns to be too difficult to judge. Trustuk Fund Group LTD is separated from those
-                            sites and this is because Trustuk Fund Group LTD is a legally registered investment
-                            company. All our business operations are monitored by both law and bank, which makes
-                            all our capital stable and safe at the same time. That's what other online high-profit
-                            companies can't beat.
-                        </p>
-                        <p>
-                            Finally, we have local networked centers in Singapore, Washington DC, South Africa, Ghana,
-                            Bukina Faso, Nigeria, France and Cyprus.
-                        </p>
-                    </div>
+                <div class="questions">
+                    <h3>Which Countries are allowed to rgister with TUF Group?</h3>
+                    <p>
+                        Members from all countries in the world are eligible to
+                        join, but you must be 18 years old in the time of joining.
+                        In any suspect we may ask for the ID proof to verify your identity,
+                        address and age. We are not liable for tax in country and
+                        licensing to operate business with you.
+                    </p>
+
+                    <h3>How can I register? How much does it cost?</h3>
+                    <p>
+                        It's simple and comes with ready to deposit. You need to
+                        enter your <b>Name</b> and <b>E-mail Address</b> in the
+                        Invest now form and follow the instructions to complete
+                        the registration process.
+                    </p>
+
+                    <h3>Can I have multiple accounts with TUF Group?</h3>
+                    <p>
+                        Yes, this is allowed. Each person can create multiple
+                        accounts for themselves
+                    </p>
+
+                    <h3>Which Payment Methods do you accept?</h3>
+                    <p>
+                        We accept <b>Bitcoin</b> currently, but soon to add Perfect
+                        Money, Payeer, AdvCash, OkPay, Neteller, Skrill and Payza.
+                        We also accept Mobile Money transfers in some of our local
+                        network centers
+                    </p>
+
+                    <h3>
+                        What are the minimum and maximum Investments that can be made?
+                    </h3>
+                    <p>
+                        Minimum investment is <b>$500</b> and maximum depending on the
+                        package chosen.
+                    </p>
+
+                    <h3>Other Investment Programs pays daily, why don't you?</h3>
+                    <p>
+                        We are a real company from the United Kingdom. Daily returns
+                        are normally paid by HYIPs and no one knows when that company
+                        will disappera. We are not an HYIP. We do private banking
+                        inestments in different areas and share those profits with
+                        our members. Depending on your investment amount, you will
+                        receive 30% - 170% of our profits made
+                    </p>
                 </div>
             </div>
             <div class="sc_empty_space" data-height="2em"></div>
