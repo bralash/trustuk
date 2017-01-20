@@ -227,7 +227,7 @@
                                                 <span class="sc_price_currency">$</span><span class="sc_price_money">150 - 3000</span>
                                             </div>
                                             <div class="sc_price_des">
-                                                This plan is for a duration of <b>91 Days</b> and a rate of <b>125%</b>
+                                                This plan is for a duration of <b>91 Days</b> and is at a rate of <b>125%</b>
                                             </div>
                                         </div>
                                         <div class="sc_price_block_link">
@@ -293,7 +293,7 @@
                                                 <span class="sc_price_currency">$</span><span class="sc_price_money" style="font-size: 1.5rem;">10000 - 30000</span>
                                             </div>
                                             <div class="sc_price_des">
-                                                This plan spans for a <b>Lifetime</b> and the rate is <b>Dividend</b>
+                                                The duration of this plan is a <b>Lifetime</b> and the rate is <b>Dividend</b>
                                             </div>
                                         </div>
                                         <div class="sc_price_block_link">
@@ -306,6 +306,108 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+@endsection
+@section('advice')
+    <div class="sc_section">
+        <div class="content_wrap">
+            <div class="sc_empty_space" data-height="2.2em" style="height: 2.2em;"></div>
+            <div class="sc_section margin_top_huge margin_bottom_huge">
+                <div class="sc_section_inner">
+                    <h2 class="sc_section_title sc_item_title">Our Terms &amp; Conditions</h2>
+                    <div class="sc_section_descr sc_item_descr">
+                        Please read the following rules carefully before creating an <br>
+                        account
+                    </div>
+                    <div class="sc_empty_space" data-height="0.7em" style="height: 0.7em;"></div>
+                    <div class="columns_wrap sc_columns margin_top_tiny">
+                        <h4>General Rules</h4>
+                        <ul>
+                            <ol>
+                                <li>
+                                    This document was created in accordance with the rules
+                                    of international law and business practice.
+                                </li>
+                                <li>
+                                    The system accepts legal capable individuals over the age
+                                    of 18 to be a client of TUF Group.
+                                </li>
+                                <li>
+                                    The registration procedure is necessary for each client of
+                                    TUF Group.
+                                </li>
+                                <li>
+                                    By being a client of TUF Group, you agree with the rules in
+                                    this document.
+                                </li>
+                            </ol>
+                        </ul>
+                        <h4>Investment Rules</h4>
+                        <ul>
+                            <ol>
+                                <li>
+                                    Every deposit is considered to be a private transaction
+                                    between TUF and its client.
+                                </li>
+                                <li>
+                                    Clients execute all financial transactions solely at their
+                                    own discretion and their own risk. The amount of the deposit
+                                    is determined personally by the project participant.
+                                </li>
+                                <li>
+                                    Accrual of interest on the investment is calculated and
+                                    credited to investor's account at the end of the investment term.
+                                </li>
+                                <li>
+                                    The interest rate depends on the amount of investment, as well as selected
+                                    tariff and deposit term
+                                </li>
+                                <li>
+                                    Client has the discretion to choose any of the e-currencies available for
+                                    deposit in the system. TUF accepts only USD for investing
+                                </li>
+                            </ol>
+                        </ul>
+
+                        <h4>Procedure of amending the present rules</h4>
+                        <ul>
+                            <ol>
+                                <li>
+                                    Administration of TUF reserves the right to make changes
+                                    to the current project rules without the consent of investors.
+                                </li>
+                                <li>
+                                    Administration of TUF will inform investors about such changes by
+                                    publishing this information notice on the site of the project.
+                                </li>
+                                <li>
+                                    The changes come in force from the date of placing the information
+                                    on the site, unless otherwise provided in the text
+                                </li>
+                            </ol>
+                        </ul>
+                        <h4>Customer Service and Support</h4>
+                        <ul>
+                            <ol>
+                                <li>
+                                    Every client has the right to get any additional information from
+                                    our support service.
+                                </li>
+                                <li>
+                                    Client can contact our support service via our Support Form or
+                                    Live Support Service.
+                                </li>
+                                <li>
+                                    Customer agrees to behave politely with our support team and follow
+                                    the instructions to prevent anyone from potentially negative situation.
+                                </li>
+                            </ol>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sc_empty_space" data-height="2em" style="height: 2em;"></div>
         </div>
     </div>
 @endsection
