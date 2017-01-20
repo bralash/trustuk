@@ -8254,3 +8254,6 @@ h6 .wpb_text_column p {
 .questions h3 {
     color: tomato !important;
 }
+table.table th, table.table td {
+    border: 2px solid #333;
+}
