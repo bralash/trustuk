@@ -365,6 +365,7 @@
 <script src="{{URL::asset('js/vendor/swiper/swiper.js')}}" type='text/javascript'></script>
 <script src="{{URL::asset('http://maps.google.com/maps/api/js?key=AIzaSyBfet9MXzIA6JlJJBI69qS75Z46P9ZnBVQ')}}" type='text/javascript'></script>
 
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -378,5 +379,10 @@
     })();
 </script>
 <!--End of Tawk.to Script-->
+<script>
+    $(document).ready(function () {
+        alert('hi');
+    });
+</script>
 </body>
 </html>
