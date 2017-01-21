@@ -47,7 +47,7 @@
                             </div>
                             <ul class="menu_user_nav" id="menu_user">
                                 <li class="menu_user_register_login">
-                                    <a class="popup_link popup_login_link icon-key-light" href="#popup_login">Login</a> or <a class="popup_link popup_register_link" href="#popup_registration">Register</a>
+                                    <a class="popup_link popup_login_link icon-key-light" href="{{URL::to('/auth/login')}}">Login</a> or <a class="popup_link popup_register_link" href="{{URL::to('/auth/register')}}">Register</a>
                                 </li>
 
                             </ul>
@@ -119,45 +119,19 @@
                                 <h5 class="widget_title">About Us</h5>
                                 <div class="widget_inner">
                                     <div class="logo_descr">
-                                        Perspiciatis unde omnis iste natus sit voluptatem cusantium doloremque laudantium totam rem aperiam, eaque ipsa quae. ab illo inventore veritatis et.<br>
+                                        Trustuk Fund is an investment company uniting professional fund managers in the
+                                        field of wealth management. Complex world of real investment is our daily
+                                        concern.
                                         <br>
                                         <ul class="sc_list sc_list_style_iconed custom_cl_1">
-                                            <li class="sc_list_item first"><span class="sc_list_icon icon-location-light custom_cl_2"></span>Los Angeles, Street Avenue, La 2540</li>
-                                            <li class="sc_list_item even"><span class="sc_list_icon icon-mobile-light custom_cl_2"></span>Phone: 800-123-4567</li>
-                                            <li class="sc_list_item"><span class="sc_list_icon icon-mail-light custom_cl_2"></span>Email: invetex@yoursite.com</li>
+                                            <li class="sc_list_item first"><span class="sc_list_icon icon-location-light custom_cl_2"></span>
+                                                FMR. Ancient Bank Building, No. 123 Cheetham Hill - Manchester
+                                            </li>
+                                            <li class="sc_list_item even"><span class="sc_list_icon icon-mobile-light custom_cl_2"></span>Phone: +44 2035143800</li>
+                                            <li class="sc_list_item"><span class="sc_list_icon icon-mail-light custom_cl_2"></span>Email: contact@trustukfundgroup.com</li>
                                         </ul>
                                     </div>
                                 </div>
-                            </aside>
-                            <aside class="widget widget_recent_posts">
-                                <h5 class="widget_title">Recent Posts</h5>
-                                <article class="post_item">
-                                    <div class="post_thumb"><img alt="" src="images/75x75.jpg"></div>
-                                    <div class="post_content">
-                                        <h6 class="post_title"><a href="single-post.html">Broker-dealer owner indicated in $17 million dump scheme</a></h6>
-                                        <div class="post_info">
-                                            <span class="post_info_item"><a class="post_info_date" href="single-post.html">April 30, 2016</a></span> <span class="post_info_item post_info_counters"><a class="post_counters_item icon-comment-light" href="single-post.html"><span class="post_counters_number">2 Comments</span></a></span>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="post_item">
-                                    <div class="post_thumb"><img alt="" src="images/75x75.jpg"></div>
-                                    <div class="post_content">
-                                        <h6 class="post_title"><a href="single-post.html">Why buying a big house is a bad investment</a></h6>
-                                        <div class="post_info">
-                                            <span class="post_info_item"><a class="post_info_date" href="single-post.html">April 29, 2016</a></span> <span class="post_info_item post_info_counters"><a class="post_counters_item icon-comment-light" href="single-post.html"><span class="post_counters_number">0 Comments</span></a></span>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="post_item with_thumb">
-                                    <div class="post_thumb"><img alt="" src="images/75x75.jpg"></div>
-                                    <div class="post_content">
-                                        <h6 class="post_title"><a href="single-post.html">Credit Suisse CEO focuses on wealth management</a></h6>
-                                        <div class="post_info">
-                                            <span class="post_info_item"><a class="post_info_date" href="single-post.html">April 28, 2016</a></span> <span class="post_info_item post_info_counters"><a class="post_counters_item icon-comment-light" href="single-post.html"><span class="post_counters_number">0 Comments</span></a></span>
-                                        </div>
-                                    </div>
-                                </article>
                             </aside>
                         </div>
                     </div>
@@ -234,10 +208,10 @@
                         </div>
                     </div>
                     <div class="login">
-                        <a class="popup_link popup_login_link icon-user" href="#popup_login">Login</a>
+                        <a class="popup_link popup_login_link icon-user" href="{{URL::to('/auth/login')}}">Login</a>
                     </div>
                     <div class="login">
-                        <a class="popup_link popup_register_link icon-pencil" href="#popup_registration">Register</a>
+                        <a class="popup_link popup_register_link icon-pencil" href="{{URL::to('/auth/register')}}">Register</a>
                     </div>
                 </div>
                 <div class="panel_middle">
@@ -362,106 +336,7 @@
         </div>
     </div><!-- /.page_wrap -->
 </div><!-- /.body_wrap -->
-<div class="popup_wrap popup_registration bg_tint_light" id="popup_registration">
-    <a class="popup_close" href="#"></a>
-    <div class="form_wrap">
-        <form class="popup_form registration_form" id="registration_form" method="post" name="registration_form">
-            <input name="redirect_to" type="hidden" value="#">
-            <div class="form_left">
-                <div class="logo">
-                    <a href="{{URL::to('/')}}"><img alt="" class="logo_login" src="{{URL::asset('images/trustuk_logo.png')}}"></a>
-                </div>
-                <div class="registration_socials_title">
-                    You can register using your social profile
-                </div>
-                <div class="registration_socials_list">
-                    <div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny">
-                        <div class="sc_socials_item">
-                            <a class="social_icons social_facebook" href="#" target="_blank"><span class="icon-facebook"></span></a>
-                        </div>
-                        <div class="sc_socials_item">
-                            <a class="social_icons social_twitter" href="#" target="_blank"><span class="icon-twitter"></span></a>
-                        </div>
-                        <div class="sc_socials_item">
-                            <a class="social_icons social_gplus" href="#" target="_blank"><span class="icon-gplus"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="registration_socials_or">
-                    <span>or</span>
-                </div>
-                <div class="popup_form_field login_field iconed_field">
-                    <input id="registration_username" name="registration_username" placeholder="User name (login)" type="text" value="">
-                </div>
-                <div class="popup_form_field email_field iconed_field">
-                    <input id="registration_email" name="registration_email" placeholder="E-mail" type="text" value="">
-                </div>
-            </div>
-            <div class="form_right">
-                <div class="popup_form_field password_field iconed_field">
-                    <input id="registration_pwd" name="registration_pwd" placeholder="Password" type="password" value="">
-                </div>
-                <div class="popup_form_field password_field iconed_field">
-                    <input id="registration_pwd2" name="registration_pwd2" placeholder="Confirm Password" type="password" value="">
-                </div>
-                <div class="popup_form_field agree_field">
-                    <input id="registration_agree" name="registration_agree" type="checkbox" value="agree"> <label for="registration_agree">I agree with</label> <a href="#">Terms &amp; Conditions</a>
-                </div>
-                <div class="popup_form_field submit_field">
-                    <input class="submit_button" type="submit" value="Registration">
-                </div>
-            </div>
-        </form>
-        <div class="result message_block"></div>
-    </div><!-- /.registration_wrap -->
-</div><!-- /.user-popUp -->
-<div class="popup_wrap popup_login bg_tint_light" id="popup_login">
-    <a class="popup_close" href="#"></a>
-    <div class="form_wrap">
-        <div class="form_right">
-            <div class="logo">
-                <a href="{{URL::to('/')}}"><img alt="" class="logo_login" src="{{URL::asset('images/trustuk_logo.png')}}"></a>
-            </div>
-            <div class="login_socials_title">
-                You can login using your social profile
-            </div>
-            <div class="login_socials_list">
-                <div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny">
-                    <div class="sc_socials_item">
-                        <a class="social_icons social_facebook" href="#" target="_blank"><span class="icon-facebook"></span></a>
-                    </div>
-                    <div class="sc_socials_item">
-                        <a class="social_icons social_twitter" href="#" target="_blank"><span class="icon-twitter"></span></a>
-                    </div>
-                    <div class="sc_socials_item">
-                        <a class="social_icons social_gplus" href="#" target="_blank"><span class="icon-gplus"></span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="login_socials_or">
-                <span>or</span>
-            </div>
-            <div class="result message_block"></div>
-        </div>
-        <div class="form_left">
-            <form action="#" class="popup_form login_form" id="login_form" method="post" name="login_form">
-                <input name="redirect_to" type="hidden" value="#">
-                <div class="popup_form_field login_field iconed_field">
-                    <input id="log" name="log" placeholder="Login or Email" type="text" value="">
-                </div>
-                <div class="popup_form_field password_field iconed_field">
-                    <input id="password" name="pwd" placeholder="Password" type="password" value="">
-                </div>
-                <div class="popup_form_field remember_field">
-                    <a class="forgot_password" href="#">Forgot password?</a> <input id="rememberme" name="rememberme" type="checkbox" value="forever"> <label for="rememberme">Remember me</label>
-                </div>
-                <div class="popup_form_field submit_field">
-                    <input class="submit_button" type="submit" value="Login">
-                </div>
-            </form>
-        </div>
-    </div><!-- /.login_wrap -->
-</div><!-- /.popup_login -->
+
 <div class="popup_wrap_bg"></div><a class="scroll_to_top icon-up" href="#" title="Scroll to top"></a>
 <script src="{{URL::asset('js/vendor/jquery.js')}}" type='text/javascript'></script>
 <script src="{{URL::asset('js/vendor/jquery-migrate.min.js')}}" type='text/javascript'></script>

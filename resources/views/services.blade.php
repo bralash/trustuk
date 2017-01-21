@@ -352,12 +352,12 @@
                                 </li>
                                 <li>
                                     Clients execute all financial transactions solely at their
-                                    own discretion and their own risk. The amount of the deposit
+                                    own discretion and their own risk. The amount <br> of the deposit
                                     is determined personally by the project participant.
                                 </li>
                                 <li>
                                     Accrual of interest on the investment is calculated and
-                                    credited to investor's account at the end of the investment term.
+                                    credited to investor's account at the end of the <br> investment term.
                                 </li>
                                 <li>
                                     The interest rate depends on the amount of investment, as well as selected
@@ -400,7 +400,7 @@
                                 </li>
                                 <li>
                                     Customer agrees to behave politely with our support team and follow
-                                    the instructions to prevent anyone from potentially negative situation.
+                                    the instructions to prevent <br> anyone from potentially negative situation.
                                 </li>
                             </ol>
                         </ul>
