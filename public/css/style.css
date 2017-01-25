@@ -9801,6 +9801,8 @@ table.table th, table.table td {
     margin-bottom: 20px;
 }
 
+
+
 .login_form_wrapper .field label {
     display: block;
 }
@@ -9814,4 +9816,8 @@ table.table th, table.table td {
 }
 .login_form_wrapper .field select {
     cursor: pointer;
+}
+
+.login_form_wrapper .fields {
+    border:1px solid red;
 }

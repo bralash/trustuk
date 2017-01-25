@@ -21,6 +21,10 @@ class AuthController extends Controller
         return View('deposit');
     }
 
+    public function detailsIndex() {
+        return View('details');
+    }
+
     public function register(Request $request) {
         $client = new Client();
 

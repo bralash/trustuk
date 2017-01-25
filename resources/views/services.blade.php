@@ -231,7 +231,7 @@
                                             </div>
                                         </div>
                                         <div class="sc_price_block_link">
-                                            <a class="sc_button sc_button_style_filled sc_button_size_medium" href="#">Read more</a>
+                                            {{--<a class="sc_button sc_button_style_filled sc_button_size_medium" href="#">Read more</a>--}}
                                         </div>
                                     </div>
                                 </div>
@@ -253,7 +253,7 @@
                                             </div>
                                         </div>
                                         <div class="sc_price_block_link">
-                                            <a class="sc_button sc_button_style_filled sc_button_size_medium" href="#">Read more</a>
+                                            {{--<a class="sc_button sc_button_style_filled sc_button_size_medium" href="#">Read more</a>--}}
                                         </div>
                                     </div>
                                 </div>
@@ -275,7 +275,7 @@
                                             </div>
                                         </div>
                                         <div class="sc_price_block_link">
-                                            <a class="sc_button sc_button_style_filled sc_button_size_medium" href="#">Read more</a>
+                                            {{--<a class="sc_button sc_button_style_filled sc_button_size_medium" href="#">Read more</a>--}}
                                         </div>
                                     </div>
                                 </div>
@@ -297,7 +297,7 @@
                                             </div>
                                         </div>
                                         <div class="sc_price_block_link">
-                                            <a class="sc_button sc_button_style_filled sc_button_size_medium" href="#">Read more</a>
+                                            {{--<a class="sc_button sc_button_style_filled sc_button_size_medium" href="#">Read more</a>--}}
                                         </div>
                                     </div>
                                 </div>

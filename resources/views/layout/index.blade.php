@@ -47,7 +47,7 @@
                             </div>
                             <ul class="menu_user_nav" id="menu_user">
                                 <li class="menu_user_register_login">
-                                    <a class="popup_link popup_login_link icon-key-light" href="{{URL::to('/auth/login')}}">Login</a> or <a class="popup_link popup_register_link" href="{{URL::to('/auth/register')}}">Register</a>
+                                    <a class="popup_link popup_login_link icon-key-light" href="#">Login</a> or <a class="popup_link popup_register_link" href="#">Register</a>
                                 </li>
 
                             </ul>
@@ -208,10 +208,10 @@
                         </div>
                     </div>
                     <div class="login">
-                        <a class="popup_link popup_login_link icon-user" href="{{URL::to('/auth/login')}}">Login</a>
+                        <a class="popup_link popup_login_link icon-user" href="#">Login</a>
                     </div>
                     <div class="login">
-                        <a class="popup_link popup_register_link icon-pencil" href="{{URL::to('/auth/register')}}">Register</a>
+                        <a class="popup_link popup_register_link icon-pencil" href="#">Register</a>
                     </div>
                 </div>
                 <div class="panel_middle">
