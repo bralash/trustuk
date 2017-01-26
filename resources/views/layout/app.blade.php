@@ -21,6 +21,9 @@
     <link href="{{URL::asset('js/vendor/magnific-popup/magnific-popup.css')}}" media='all' property="stylesheet" rel='stylesheet' type='text/css'>
     <link href="{{URL::asset('js/vendor/swiper/swiper.css')}}" media='all' property="stylesheet" rel='stylesheet' type='text/css'>
     <link href="{{URL::asset('css/responsive.css')}}" media='all' property="stylesheet" rel='stylesheet' type='text/css'>
+    <link href="{{URL::asset('css/pure.css')}}" media='all' property="stylesheet" rel='stylesheet' type='text/css'>
+    <link href="{{URL::asset('css/pure-responsive.css')}}" media='all' property="stylesheet" rel='stylesheet' type='text/css'>
+    <link href="{{URL::asset('css/jquery.datetimepicker.css')}}" media='all' property="stylesheet" rel='stylesheet' type='text/css'>
     <link href="{{URL::asset('images/fav.png')}}" rel="icon" sizes="192x192">
 </head>
 <body class="body_style_wide body_filled scheme_original top_panel_show top_panel_over sidebar_hide sidebar_outer_show sidebar_outer_yes">
@@ -47,7 +50,7 @@
                             </div>
                             <ul class="menu_user_nav" id="menu_user">
                                 <li class="menu_user_register_login">
-                                    <a class="popup_link popup_login_link icon-key-light" href="#">Login</a> or <a class="popup_link popup_register_link" href="#">Register</a>
+                                    <a class="popup_link popup_login_link icon-key-light" href="{{URL::to('/auth/login')}}">Login</a> or <a class="popup_link popup_register_link" href="{{URL::to('/auth/register')}}">Register</a>
                                 </li>
 
                             </ul>
@@ -185,10 +188,10 @@
                         </div>
                     </div>
                     <div class="login">
-                        <a class="popup_link popup_login_link icon-user" href="#">Login</a>
+                        <a class="popup_link popup_login_link icon-user" href="{{URL::to('/auth/login')}}">Login</a>
                     </div>
                     <div class="login">
-                        <a class="popup_link popup_register_link icon-pencil" href="#">Register</a>
+                        <a class="popup_link popup_register_link icon-pencil" href="{{URL::to('/auth/register')}}">Register</a>
                     </div>
                 </div>
                 <div class="panel_middle">
@@ -317,6 +320,7 @@
 <div class="popup_wrap_bg"></div><a class="scroll_to_top icon-up" href="#" title="Scroll to top"></a>
 <script src="{{URL::asset('js/vendor/jquery.js')}}" type='text/javascript'></script>
 <script src="{{URL::asset('js/vendor/jquery-migrate.min.js')}}" type='text/javascript'></script>
+<script src="@yield('script')" type='text/javascript'></script>
 <script src="{{URL::asset('js/vendor/essgrid/jquery.themepunch.tools.min.js')}}" type='text/javascript'></script>
 <script src="{{URL::asset('js/vendor/essgrid/jquery.themepunch.essential.min.js')}}" type='text/javascript'></script>
 <script src="{{URL::asset('js/vendor/revslider/jquery.themepunch.revolution.min.js')}}" type='text/javascript'></script>
@@ -338,7 +342,9 @@
 <script src="{{URL::asset('js/custom/_messages.js')}}" type='text/javascript'></script>
 <script src="{{URL::asset('js/vendor/magnific-popup/jquery.magnific-popup.min.js')}}" type='text/javascript'></script>
 <script src="{{URL::asset('js/vendor/swiper/swiper.js')}}" type='text/javascript'></script>
-<script src="{{URL::asset('http://maps.google.com/maps/api/js?key=AIzaSyBfet9MXzIA6JlJJBI69qS75Z46P9ZnBVQ')}}" type='text/javascript'></script>
+<script src="{{URL::asset('js/jquery.datetimepicker.js')}}" type='text/javascript'></script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyBfet9MXzIA6JlJJBI69qS75Z46P9ZnBVQ" type='text/javascript'></script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyBfet9MXzIA6JlJJBI69qS75Z46P9ZnBVQ" type='text/javascript'></script>
 
 
 <!--Start of Tawk.to Script-->
@@ -356,7 +362,7 @@
 <!--End of Tawk.to Script-->
 <script>
     $(document).ready(function () {
-        alert('hi');
+        jQuery('.datetimepicker').datetimepicker();
     });
 </script>
 </body>

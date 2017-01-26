@@ -9821,3 +9821,10 @@ table.table th, table.table td {
 .login_form_wrapper .fields {
     border:1px solid red;
 }
+.pure-form select.pure-input-1-2 {
+    padding-top: 2px;
+    width: 95%;
+}
+.pure-form fieldset legend {
+    color: #54be73;
+}

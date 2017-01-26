@@ -17,29 +17,192 @@
         <div class="content_wrap">
             <div class="sc_empty_space" data-height="2.2em"></div>
             <div class="sc_section margin_top_huge margin_bottom_huge">
-                <h2 class="sc_section_title sc_item_title">Personal Details</h2>
+                <h2 class="sc_section_title sc_item_title">Additional Information</h2>
                 <div class="login_form_wrapper">
-                    <form action="/auth/details" method="post">
-                        {{csrf_field()}}
+                    <form class="pure-form pure-form-stacked">
+                        <fieldset>
+                            <legend>Personal Details</legend>
+                            <div class="pure-g">
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="title">Title</label>
+                                    <input id="title" name="title" class="pure-u-23-24" type="text">
+                                </div>
 
-                        <div class="fields two">
-                            <div class="field">
-                                <label for="title">Title</label>
-                                <input type="email" name="title" id="title">
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="multi-last-name">Full Name</label>
+                                    <input id="multi-last-name" name="fullname" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="multi-email">Date of Birth</label>
+                                    <input id="dob" name="dob" class="pure-u-23-24" type="date">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="gender">Gender</label>
+                                    <select name="gender" id="gender" class="pure-input-1-2">
+                                        <option value="male">Male</option>
+                                        <option value="male">Female</option>
+                                        <option value="male">Other</option>
+                                    </select>
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="address">Address</label>
+                                    <input id="address" name="address" class="pure-u-23-24" type="email">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="marital">Marital Status</label>
+                                    <select name="marital" id="marital" class="pure-input-1-2">
+                                        <option value="single">Single</option>
+                                        <option value="married">Married</option>
+                                        <option value="divorced">Divorced</option>
+                                        <option value="widowed">Widowed</option>
+                                    </select>
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="age">Age</label>
+                                    <input id="age" name="age" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="profession">Address</label>
+                                    <input id="profession" name="profession" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="contact">Contact Number</label>
+                                    <input id="contact" name="contact" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="country">Residence Country</label>
+                                    <input id="country" name="country" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="id_type">ID Type</label>
+                                    <input id="id_type" name="id_type" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="number">ID Number</label>
+                                    <input id="number" name="number" class="pure-u-23-24" type="text">
+                                </div>
+
                             </div>
+                        </fieldset>
 
-                            <div class="field">
-                                <label for="fullname">Fullname</label>
-                                <input type="text" name="fullname" id="fullname">
+                        <fieldset>
+
+                            <legend>Spouse Details (If any)</legend>
+                            <div class="pure-g">
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="spouse_fullname">Full Name</label>
+                                    <input id="spouse_fullname" name="spouse_fullname" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="spouse_dob">Date of Birth</label>
+                                    <input id="spouse_dob" name="spouse_dob" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="spouse_profession">Profession</label>
+                                    <input id="spouse_profession" name="spouse_profession" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="spouse_gender">Gender</label>
+                                    <select name="spouse_gender" id="spouse_gender" class="pure-input-1-2">
+                                        <option value="male">Male</option>
+                                        <option value="male">Female</option>
+                                        <option value="male">Other</option>
+                                    </select>
+                                </div>
+
+
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="spouse_contact">Contact</label>
+                                    <input id="spouse_contact" name="spouse_contact" class="pure-u-23-24" type="text">
+                                </div>
                             </div>
-                        </div>
+                        </fieldset>
 
+                        <fieldset>
 
-                        <button type="submit">Register</button>
+                            <legend>Beneficiary Details (If any)</legend>
+                            <div class="pure-g">
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="bene_fullname">Full Name</label>
+                                    <input id="bene_fullname" name="bene_fullname" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="bene_dob">Date of Birth</label>
+                                    <input id="bene_dob" name="bene_dob" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="bene_share">Share</label>
+                                    <input id="bene_share" name="bene_share" class="pure-u-23-24" type="text">
+                                </div>
+
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+
+                            <legend>Next of Kin Details</legend>
+                            <div class="pure-g">
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="kin_fullname">Full Name</label>
+                                    <input id="kin_fullname" name="kin_fullname" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="kin_dob">Date of Birth</label>
+                                    <input id="kin_dob" name="kin_dob" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="kin_age">Age</label>
+                                    <input id="kin_age" name="kin_age" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="kin_relationship">Relationship to Investor</label>
+                                    <input id="kin_relationship" name="kin_relationship" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="kin_profession">Profession</label>
+                                    <input id="kin_profession" name="kin_profession" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="kin_contact">Contact</label>
+                                    <input id="kin_contact" name="kin_contact" class="pure-u-23-24" type="text">
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-3">
+                                    <label for="kin_id_type">ID Card Type</label>
+                                    <input id="kin_id_type" name="kin_id_type" class="pure-u-23-24" type="text">
+                                </div>
+
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="pure-button pure-button-primary">Submit</button>
                     </form>
                 </div>
             </div>
             <div class="sc_empty_space" data-height="2em"></div>
         </div>
     </div>
+@endsection
+@section('script')
+{{URL::asset('js/script.js')}}
 @endsection
