@@ -23,11 +23,11 @@
                         {{csrf_field()}}
                         <fieldset>
                             <legend>Personal Details</legend>
-                            <input type="text" name="user_id" value="{{Auth::user()->id}}">
+                            <input type="hidden" name="user_id" value="{{Auth::user()->id}}">
                             <div class="pure-g">
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="title">Title</label>
-                                    <input id="title" name="title" class="pure-u-23-24" type="text">
+                                    <input id="title" name="title" class="pure-u-23-24" type="text" required>
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
@@ -37,12 +37,12 @@
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="multi-email">Date of Birth</label>
-                                    <input id="dob" name="dob" class="pure-u-23-24" type="date">
+                                    <input id="dob" name="dob" class="pure-u-23-24" type="date" required>
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="gender">Gender</label>
-                                    <select name="gender" id="gender" class="pure-input-1-2">
+                                    <select name="gender" id="gender" class="pure-input-1-2" required>
                                         <option value="male">Male</option>
                                         <option value="female">Female</option>
                                         <option value="other">Other</option>
@@ -51,12 +51,12 @@
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="address">Address</label>
-                                    <input id="address" name="address" class="pure-u-23-24" type="email">
+                                    <input id="address" name="address" class="pure-u-23-24" type="email" required>
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="marital">Marital Status</label>
-                                    <select name="marital" id="marital" class="pure-input-1-2">
+                                    <select name="marital" id="marital" class="pure-input-1-2" required>
                                         <option value="single">Single</option>
                                         <option value="married">Married</option>
                                         <option value="divorced">Divorced</option>
@@ -67,27 +67,27 @@
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="profession">Profession</label>
-                                    <input id="profession" name="profession" class="pure-u-23-24" type="text">
+                                    <input id="profession" name="profession" class="pure-u-23-24" type="text" required>
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="contact">Contact Number</label>
-                                    <input id="contact" name="contact" class="pure-u-23-24" type="text">
+                                    <input id="contact" name="contact" class="pure-u-23-24" type="text" required>
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="country">Residence Country</label>
-                                    <input id="country" name="country" class="pure-u-23-24" type="text">
+                                    <input id="country" name="country" class="pure-u-23-24" type="text" required>
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="id_type">ID Type</label>
-                                    <input id="id_type" name="id_type" class="pure-u-23-24" type="text">
+                                    <input id="id_type" name="id_type" class="pure-u-23-24" type="text" required>
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="id_number">ID Number</label>
-                                    <input id="id_number" name="id_number" class="pure-u-23-24" type="text">
+                                    <input id="id_number" name="id_number" class="pure-u-23-24" type="text" required>
                                 </div>
 
                             </div>
