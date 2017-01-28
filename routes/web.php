@@ -20,10 +20,15 @@ Route::get('/contact', ['uses' => 'PagesController@contact']);
 Route::group(['prefix' => 'auth'], function() {
     Route::get('/login', ['uses' => 'AuthController@loginIndex']);
     Route::get('/register', ['uses' => 'AuthController@registerIndex']);
-    Route::get('/deposit', ['uses' => 'AuthController@depositIndex']);
-    Route::get('/details', ['uses' => 'AuthController@detailsIndex']);
+    Route::get('/deposit', ['uses' => 'AuthController@depositIndex'])->middleware('auth');
+    Route::get('/details', ['uses' => 'AuthController@detailsIndex'])->middleware('auth');
 
+    Route::post('/login', ['uses' => 'AuthController@login']);
     Route::post('/register', ['uses' => 'AuthController@register']);
     Route::post('/deposit', ['uses' => 'AuthController@deposit']);
     Route::post('/details', ['uses' => 'AuthController@details']);
+});
+
+Route::group(['prefix' => 'admin'], function() {
+    Route::get('/', ['uses' => 'AdminController@index']);
 });

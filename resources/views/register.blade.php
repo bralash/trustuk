@@ -19,7 +19,7 @@
             <div class="sc_section margin_top_huge margin_bottom_huge">
                 <h2 class="sc_section_title sc_item_title">Create an account</h2>
                 <div class="login_form_wrapper">
-                    <form action="/auth/register" method="post">
+                    <form action="/auth/register" method="post" autocomplete="off">
                         {{csrf_field()}}
 
                         <div class="field">
@@ -30,6 +30,11 @@
                         <div class="field">
                             <label for="email">Email</label>
                             <input type="email" name="email" id="email">
+                        </div>
+
+                        <div class="field">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
                         </div>
                         
                         <div class="field">

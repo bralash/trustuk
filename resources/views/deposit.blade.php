@@ -22,6 +22,8 @@
                     <form action="/auth/register" method="post">
                         {{csrf_field()}}
 
+
+                        <input type="hidden" name="user_id" value="{{Auth::user()->id}}" readonly>
                         <div class="field">
                             <label for="plan">Choose a plan</label>
                             <select name="plan" id="plan">

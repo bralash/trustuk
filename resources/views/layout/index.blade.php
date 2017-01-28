@@ -81,13 +81,7 @@
                                     </li>
                                 </ul>
                             </nav>
-                            <div class="search_wrap search_style_fullscreen search_state_closed top_panel_el top_panel_icon">
-                                <div class="search_form_wrap">
-                                    <form action="#" class="search_form" method="get">
-                                        <button class="search_submit icon-search-light" type="submit"></button> <input class="search_field" name="s" placeholder="Search" type="text" value=""> <a class="search_close icon-1460034721_close"></a>
-                                    </form>
-                                </div>
-                            </div>
+
                             <div class="top_panel_top_socials top_panel_el">
                                 <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_tiny">
                                     <div class="sc_socials_item">
@@ -196,17 +190,7 @@
                             </li>
                         </ul>
                     </nav>
-                    <div class="search_wrap search_state_fixed search_ajax">
-                        <div class="search_form_wrap">
-                            <form action="#" class="search_form" method="get">
-                                <button class="search_submit icon-search-light" type="submit"></button> <input class="search_field" name="s" placeholder="Search" type="text" value="">
-                            </form>
-                        </div>
-                        <div class="search_results widget_area scheme_original">
-                            <a class="search_results_close icon-cancel"></a>
-                            <div class="search_results_content"></div>
-                        </div>
-                    </div>
+
                     <div class="login">
                         <a class="popup_link popup_login_link icon-user" href="{{URL::to('/auth/login')}}">Login</a>
                     </div>

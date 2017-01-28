@@ -2,9 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
+use Auth;
 use App\Deposit;
 use App\Client;
+use Dotenv\Validator;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Validation\Rules\In;
 
 class AuthController extends Controller
@@ -25,20 +31,40 @@ class AuthController extends Controller
         return View('details');
     }
 
-    public function register(Request $request) {
-        $client = new Client();
+    public function login(Request $request) {
+        $userData = array(
+            'email' => Input::get('email'),
+            'password' => Input::get('password')
+        );
 
-        $client->fullname = $request->input('fullname');
-        $client->email = $request->input('email');
-        $client->referral = $request->input('referral');
-
-        $saved = $client->save();
-
-        if(!$saved) {
-            return redirect('/auth/register');
+        if(Auth::attempt($userData)) {
+            return Redirect::to('/admin');
         } else {
-            return redirect('/auth/deposit');
+            return Redirect::to('/auth/login');
         }
+    }
+
+    public function register(Request $request) {
+        $user = new User();
+
+        $user->name = $request->input('fullname');
+        $user->email = $request->input('email');
+        $user->password = Hash::make($request->input('password'));
+        $user->referral = $request->input('referral');
+
+        $user->save();
+
+        $userData = array(
+            'email' => Input::get('email'),
+            'password' => Input::get('password')
+        );
+
+        if(Auth::attempt($userData)) {
+            return Redirect::to('/auth/deposit');
+        } else {
+            return Redirect::to('/auth/register');
+        }
+
     }
 
     public function deposit(Request $request) {
@@ -47,13 +73,11 @@ class AuthController extends Controller
         $deposit->plan = $request->input('deposit');
         $deposit->payment_method = $request->input('payment_method');
         $deposit->amount = $request->input('amount');
+        $deposit->user_id = $request->input('user_id');
 
-        $saved = $deposit->save();
+        $deposit->save();
 
-        if(!$saved) {
-            return redirect('/auth/deposit');
-        } else {
-            return redirect('/auth/details');
-        }
+        return Redirect::to('/details');
+
     }
 }

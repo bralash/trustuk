@@ -18,6 +18,7 @@ class CreateDepositsTable extends Migration
             $table->string('plan');
             $table->string('payment_method');
             $table->string('amount');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
