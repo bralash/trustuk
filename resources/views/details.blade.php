@@ -19,9 +19,11 @@
             <div class="sc_section margin_top_huge margin_bottom_huge">
                 <h2 class="sc_section_title sc_item_title">Additional Information</h2>
                 <div class="login_form_wrapper">
-                    <form class="pure-form pure-form-stacked">
+                    <form class="pure-form pure-form-stacked" action="/auth/details" method="post">
+                        {{csrf_field()}}
                         <fieldset>
                             <legend>Personal Details</legend>
+                            <input type="text" name="user_id" value="{{Auth::user()->id}}">
                             <div class="pure-g">
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="title">Title</label>
@@ -30,7 +32,7 @@
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="multi-last-name">Full Name</label>
-                                    <input id="multi-last-name" name="fullname" class="pure-u-23-24" type="text">
+                                    <input id="multi-last-name" value="{{Auth::user()->name}}" class="pure-u-23-24" type="text" readonly>
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
@@ -42,8 +44,8 @@
                                     <label for="gender">Gender</label>
                                     <select name="gender" id="gender" class="pure-input-1-2">
                                         <option value="male">Male</option>
-                                        <option value="male">Female</option>
-                                        <option value="male">Other</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
                                     </select>
                                 </div>
 
@@ -62,13 +64,9 @@
                                     </select>
                                 </div>
 
-                                <div class="pure-u-1 pure-u-md-1-3">
-                                    <label for="age">Age</label>
-                                    <input id="age" name="age" class="pure-u-23-24" type="text">
-                                </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
-                                    <label for="profession">Address</label>
+                                    <label for="profession">Profession</label>
                                     <input id="profession" name="profession" class="pure-u-23-24" type="text">
                                 </div>
 
@@ -88,8 +86,8 @@
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
-                                    <label for="number">ID Number</label>
-                                    <input id="number" name="number" class="pure-u-23-24" type="text">
+                                    <label for="id_number">ID Number</label>
+                                    <input id="id_number" name="id_number" class="pure-u-23-24" type="text">
                                 </div>
 
                             </div>
@@ -169,13 +167,8 @@
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
-                                    <label for="kin_age">Age</label>
-                                    <input id="kin_age" name="kin_age" class="pure-u-23-24" type="text">
-                                </div>
-
-                                <div class="pure-u-1 pure-u-md-1-3">
-                                    <label for="kin_relationship">Relationship to Investor</label>
-                                    <input id="kin_relationship" name="kin_relationship" class="pure-u-23-24" type="text">
+                                    <label for="kin_relation">Relationship to Investor</label>
+                                    <input id="kin_relation" name="kin_relation" class="pure-u-23-24" type="text">
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">

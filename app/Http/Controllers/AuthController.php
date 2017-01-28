@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Carbon\Carbon;
+use App\UserInfo;
 use App\User;
 use Auth;
 use App\Deposit;
@@ -11,6 +13,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Validation\Rules\In;
 
 class AuthController extends Controller
@@ -42,6 +45,12 @@ class AuthController extends Controller
         } else {
             return Redirect::to('/auth/login');
         }
+    }
+
+    public function logout(Request $request) {
+        Auth::logout();
+        Session::flush();
+        return Redirect::to('/auth/login');
     }
 
     public function register(Request $request) {
@@ -79,5 +88,14 @@ class AuthController extends Controller
 
         return Redirect::to('/details');
 
+    }
+
+    public function details(Request $request) {
+        $userinfo = new UserInfo();
+        $data = Input::except('_token');
+        $data['created_at'] = Carbon::now();
+        $data['updated_at'] = Carbon::now();
+        $userinfo::insert($data);
+        return Redirect::to('/admin');
     }
 }

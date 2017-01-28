@@ -22,6 +22,7 @@ Route::group(['prefix' => 'auth'], function() {
     Route::get('/register', ['uses' => 'AuthController@registerIndex']);
     Route::get('/deposit', ['uses' => 'AuthController@depositIndex'])->middleware('auth');
     Route::get('/details', ['uses' => 'AuthController@detailsIndex'])->middleware('auth');
+    Route::get('/logout', ['uses' => 'AuthController@logout']);
 
     Route::post('/login', ['uses' => 'AuthController@login']);
     Route::post('/register', ['uses' => 'AuthController@register']);

@@ -49,10 +49,15 @@
                                 <a class="menu_pushy_button icon-1460034782_menu2" href="#"></a>
                             </div>
                             <ul class="menu_user_nav" id="menu_user">
-                                <li class="menu_user_register_login">
-                                    <a class="popup_link popup_login_link icon-key-light" href="{{URL::to('/auth/login')}}">Login</a> or <a class="popup_link popup_register_link" href="{{URL::to('/auth/register')}}">Register</a>
-                                </li>
-
+                                @if(Auth::check())
+                                    <li class="menu_user_register_login">
+                                        <a class="popup_link popup_login_link icon-logout" href="{{URL::to('/auth/logout')}}">Logout</a>
+                                    </li>
+                                @else
+                                    <li class="menu_user_register_login">
+                                        <a class="popup_link popup_login_link icon-key-light" href="{{URL::to('/auth/login')}}">Login</a> or <a class="popup_link popup_register_link" href="{{URL::to('/auth/register')}}">Register</a>
+                                    </li>
+                                @endif
                             </ul>
                         </div>
                     </div>
@@ -170,13 +175,18 @@
                             </li>
                         </ul>
                     </nav>
-
-                    <div class="login">
-                        <a class="popup_link popup_login_link icon-user" href="{{URL::to('/auth/login')}}">Login</a>
-                    </div>
-                    <div class="login">
-                        <a class="popup_link popup_register_link icon-pencil" href="{{URL::to('/auth/register')}}">Register</a>
-                    </div>
+                    @if(Auth::check())
+                        <div class="login">
+                            <a class="popup_link popup_login_link icon-logout" href="{{URL::to('/auth/logout')}}">logout</a>
+                        </div>
+                    @else
+                        <div class="login">
+                            <a class="popup_link popup_login_link icon-user" href="{{URL::to('/auth/login')}}">Login</a>
+                        </div>
+                        <div class="login">
+                            <a class="popup_link popup_register_link icon-pencil" href="{{URL::to('/auth/register')}}">Register</a>
+                        </div>
+                    @endif
                 </div>
                 <div class="panel_middle">
                     <div class="contact_field contact_phone">
