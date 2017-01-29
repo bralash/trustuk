@@ -9828,3 +9828,11 @@ table.table th, table.table td {
 .pure-form fieldset legend {
     color: #54be73;
 }
+a.user {
+    display: inline-block;
+    margin-right: 10px;
+    color: #54be73;
+}
+table td {
+    padding:5px 10px;
+}
