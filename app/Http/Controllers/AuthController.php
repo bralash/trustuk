@@ -79,10 +79,10 @@ class AuthController extends Controller
     public function deposit(Request $request) {
         $deposit = new Deposit();
 
-        $deposit->plan = $request->input('deposit');
+        $deposit->plan = $request->input('plan');
         $deposit->payment_method = $request->input('payment_method');
         $deposit->amount = $request->input('amount');
-        $deposit->user_id = $request->input('user_id');
+        $deposit->user_id = Auth::user()->id;
 
         $deposit->save();
 

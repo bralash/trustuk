@@ -4,8 +4,9 @@
 @section('stats')
     <div class="ui three column grid">
         <div class="column">
-            <div class="stat">
-
+            <div class="stat light-blue">
+                <span class="top">$300.00</span>
+                <span class="label">Total Investment</span>
             </div>
         </div>
         <div class="column">

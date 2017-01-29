@@ -31,5 +31,6 @@ Route::group(['prefix' => 'auth'], function() {
 });
 
 Route::group(['prefix' => 'admin'], function() {
-    Route::get('/', ['uses' => 'AdminController@index']);
+    Route::get('/', ['uses' => 'AdminController@index', 'middleware' => 'auth']);
+    Route::get('/deposit', ['uses' => 'AdminController@showDeposit']);
 });

@@ -52,18 +52,18 @@ section.page-wrapper .side-menu {
     height:220px;
     background: #fff;
     box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
 }
 .stat.blue-shade {
     background: #4fc3f7;
-    color: #fff;
-    text-align: center;
-    padding-top: 80px;
 }
 .stat.green-shade {
     background: #4db6ac;
-    color: #fff;
-    text-align: center;
-    padding-top: 80px;
+}
+.stat.light-blue {
+    background: #00bcd4;
 }
 .stat span.top {
     display: block;
@@ -73,4 +73,37 @@ section.page-wrapper .side-menu {
 }
 .stat .label {
     text-transform: uppercase;
+}
+.deposit-wrapper {
+    width: 500px;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+    padding: 10px;
+}
+
+.deposit-wrapper .field {
+    margin-bottom: 20px;
+}
+
+
+
+.deposit-wrapper .field label {
+    display: block;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size:0.9rem;
+}
+
+.deposit-wrapper .field input,
+.deposit-wrapper .field textarea,
+.deposit-wrapper .field select {
+    border-radius: 3px;
+    width: 90%;
+    border: 1px solid silver;
+    padding: 10px;
+    border-radius: 0px;
+    outline: none;
+}
+.deposit-wrapper .field select {
+    cursor: pointer;
 }
