@@ -123,7 +123,7 @@
             </div>
             <div class="sc_section margin_top_huge margin_bottom_huge">
                 <h3>Our Packages Insights</h3>
-                <table class="table">
+                <table class="table custom-table">
                     <thead>
                     <tr>
                         <th>Fund Name</th>

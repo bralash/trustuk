@@ -1,5 +1,6 @@
 <?php
 
+use App\Mail\Trustuk;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -34,3 +35,4 @@ Route::group(['prefix' => 'admin'], function() {
     Route::get('/', ['uses' => 'AdminController@index', 'middleware' => 'auth']);
     Route::get('/deposit', ['uses' => 'AdminController@showDeposit']);
 });
+
