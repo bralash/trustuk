@@ -36,7 +36,7 @@
                             FMR. Ancient Bank Building, No. 123 Cheetham Hill - Manchester
                         </div>
                         <div class="top_panel_top_open_hours icon-clock-light">
-                            Mon - Fri : 09:00 - 17:00
+                            Mon - Sat : 08:00 - 17:00
                         </div>
                         <div class="top_panel_top_ophone icon-call-out">
                             +44 2035143800
@@ -144,7 +144,7 @@
                 <div class="logo">
                     <a href="{{URL::to('/')}}"><img alt="" class="logo_main" src="{{URL::asset('images/trustuk_logo.png')}}"></a>
                 </div>
-                
+
             </div>
             <div class="side_wrap">
                 <div class="close">
@@ -191,7 +191,7 @@
                         <span class="contact_icon icon-call-out"></span> <span class="contact_label contact_phone">8 800 256 35 87</span>
                     </div>
                     <div class="top_panel_top_open_hours icon-clock-light">
-                        Mon - Fri : 09:00 - 17:00
+                        Mon - Sat : 08:00 - 17:00
                     </div>
                     <div class="top_panel_top_user_area cart_hide">
                         <div class="menu_pushy_wrap clearfix">

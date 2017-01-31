@@ -46,8 +46,6 @@
                     <p>
                         We accept <b>Bitcoin</b> currently, but soon to add Perfect
                         Money, Payeer, AdvCash, OkPay, Neteller, Skrill and Payza.
-                        We also accept Mobile Money transfers in some of our local
-                        network centers
                     </p>
 
                     <h3>
@@ -62,10 +60,10 @@
                     <p>
                         We are a real company from the United Kingdom. Daily returns
                         are normally paid by HYIPs and no one knows when that company
-                        will disappera. We are not an HYIP. We do private banking
-                        inestments in different areas and share those profits with
+                        will disappear. We are not an HYIP. We do private banking
+                        investments in different areas and share those profits with
                         our members. Depending on your investment amount, you will
-                        receive 30% - 170% of our profits made
+                        receive 30% - 170% of our profits made.
                     </p>
                 </div>
             </div>

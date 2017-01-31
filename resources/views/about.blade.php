@@ -219,23 +219,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="sc_section extra_vertical_align aligncenter">
-                        <div class="sc_section_inner">
-                            <div class="sc_section_content_wrap">
-                                <a class="sc_button sc_button_style_icon sc_button_size_large sc_button_iconed sc_popup_link demo_go margin_bottom_tiny- icon-play inited" href="#video_go"></a>
-                                <div class="sc_services_wrap scheme_dark">
-                                    <div class="sc_services sc_services_style_services-2 sc_services_type_icons margin_top_tiny-">
-                                        <div class="sc_services_item">
-                                            <div class="sc_services_item_featured post_featured"></div>
-                                            <div class="sc_services_item_content">
-                                                <h4 class="sc_services_item_title">View Our Presentation Video</h4><span class="sc_services_item_subtitle">We Love Or Clients</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <div class="column-2_3 sc_column_item" style="height: 752px;">
@@ -331,7 +315,7 @@
                         <p>
                             Throughout our long and distinguished history, we have been
                             steadfastly committed to putting our clients' interests first.
-                            This fiduciary responsiblity defines our relationship with clients
+                            This fiduciary responsibility defines our relationship with clients
                             and informs the basis of every decision we make on their behalf.
                         </p>
                         <p>

@@ -66,8 +66,7 @@
                 <div class="sc_section_inner">
                     <h2 class="sc_section_title sc_item_title">Welcome to Trustuk Fund Group LTD</h2>
                     <div class="sc_section_descr sc_item_descr">
-                        Welcome to Trustuk Fund Group, one of the few legal companies in <br>
-                        the field of mutual fund investment.
+                        Our Motto is <b>"FINANCIALLY SECURING YOUR FUTURE"</b>
                     </div>
                     <div class="sc_empty_space" data-height="0.7em"></div>
                     <div class="columns_wrap sc_columns margin_top_tiny">

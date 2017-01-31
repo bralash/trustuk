@@ -152,7 +152,7 @@
                         <td>
                             Is to earn a high rate of interest income and at same time to
                             preserve capital and maintain liquidity by investing primarily
-                            in moeny market instruments, generally maturing in not more than
+                            in money market instruments, generally maturing in not more than
                             91 days
                         </td>
                     </tr>
@@ -224,7 +224,7 @@
                                         </div>
                                         <div class="sc_price_block_money">
                                             <div class="sc_price">
-                                                <span class="sc_price_currency">$</span><span class="sc_price_money">150 - 3000</span>
+                                                <span class="sc_price_currency">$</span><span class="sc_price_money">500 - 3000</span>
                                             </div>
                                             <div class="sc_price_des">
                                                 This plan is for a duration of <b>91 Days</b> and is at a rate of <b>125%</b>
@@ -246,7 +246,7 @@
                                         </div>
                                         <div class="sc_price_block_money">
                                             <div class="sc_price">
-                                                <span class="sc_price_currency">$</span><span class="sc_price_money">300 - 2500</span>
+                                                <span class="sc_price_currency">$</span><span class="sc_price_money">500 - 2500</span>
                                             </div>
                                             <div class="sc_price_des">
                                                 The duration for this plan is <b>monthly for 90 days</b> and at a rate of <b>30%</b>
@@ -290,7 +290,7 @@
                                         </div>
                                         <div class="sc_price_block_money">
                                             <div class="sc_price">
-                                                <span class="sc_price_currency">$</span><span class="sc_price_money" style="font-size: 1.5rem;">10000 - 30000</span>
+                                                <span class="sc_price_currency">$</span><span class="sc_price_money">20000</span>
                                             </div>
                                             <div class="sc_price_des">
                                                 The duration of this plan is a <b>Lifetime</b> and the rate is <b>Dividend</b>
