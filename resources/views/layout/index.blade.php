@@ -144,32 +144,7 @@
                 <div class="logo">
                     <a href="{{URL::to('/')}}"><img alt="" class="logo_main" src="{{URL::asset('images/trustuk_logo.png')}}"></a>
                 </div>
-                <div class="menu_main_cart top_panel_icon">
-                    <a class="top_panel_cart_button" href="#"><span class="contact_icon icon-bag"></span> <span class="cart_items">3</span></a>
-                    <ul class="widget_area sidebar_cart sidebar">
-                        <li>
-                            <div class="widget woocommerce widget_shopping_cart">
-                                <div class="hide_cart_widget_if_empty">
-                                    <div class="widget_shopping_cart_content">
-                                        <ul class="cart_list product_list_widget">
-                                            <li class="mini_cart_item">
-                                                <a class="remove" href="#">×</a> <a href="single-product.html"><img alt="" src="images/180x180.jpg">Finance Equations &amp; Answers Jamie C. Martin&nbsp;</a> <span class="quantity">1 × <span class="amount"><span>$</span>69.99</span></span>
-                                            </li>
-                                            <li class="mini_cart_item">
-                                                <a class="remove" href="#">×</a> <a href="single-product.html"><img alt="" src="images/180x180.jpg">The Richest Man in Babylon Elin Hinderbrand&nbsp;</a> <span class="quantity">1 × <span class="amount"><span>$</span>71.99</span></span>
-                                            </li>
-                                            <li class="mini_cart_item">
-                                                <a class="remove" href="#">×</a> <a href="single-product.html"><img alt="" src="images/180x180.jpg">Financial Strategy Karen Berman&nbsp;</a> <span class="quantity">1 × <span class="amount"><span>$</span>69.99</span></span>
-                                            </li>
-                                        </ul>
-                                        <p class="total"><strong>Subtotal:</strong> <span class="amount"><span>$</span>211.97</span></p>
-                                        <p class="buttons"><a class="button" href="cart.html">View Cart</a> <a class="button" href="checkout.html">Checkout</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                
             </div>
             <div class="side_wrap">
                 <div class="close">
