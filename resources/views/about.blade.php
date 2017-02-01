@@ -189,7 +189,7 @@
                     <div class="sc_columns columns_wrap">
                         <p>
                             Trustuk Fund Group LTD uses six risk filters to guide strategy
-                            decisions about when and where to invest. The first two - <b>international
+                            decisions about when and where to invest. The first two - <b>international <br>
                             connectivity</b> and <b>international development</b> - determine whether the business
                             is strategically relevant and futuristically robust.
                         </p>
@@ -234,60 +234,60 @@
                             <div class="column-1_3 column_padding_bottom">
                                 <div class="sc_services_item">
                                     <div class="top_post_image">
-                                        <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_01.png"></a>
+                                        <a href=""><img alt="" class="services-post-image" src="images/min_service_01.png"></a>
                                     </div>
                                     <div class="sc_services_item_content">
-                                        <h4 class="sc_services_item_title"><a href="single-post.html">International Connectivity</a></h4>
+                                        <h4 class="sc_services_item_title"><a href="">International Connectivity</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="column-1_3 column_padding_bottom">
                                 <div class="sc_services_item">
                                     <div class="top_post_image">
-                                        <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_02.png"></a>
+                                        <a href=""><img alt="" class="services-post-image" src="images/min_service_02.png"></a>
                                     </div>
                                     <div class="sc_services_item_content">
-                                        <h4 class="sc_services_item_title"><a href="single-post.html">International Development</a></h4>
+                                        <h4 class="sc_services_item_title"><a href="">International Development</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="column-1_3 column_padding_bottom">
                                 <div class="sc_services_item">
                                     <div class="top_post_image">
-                                        <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_03.png"></a>
+                                        <a href=""><img alt="" class="services-post-image" src="images/min_service_03.png"></a>
                                     </div>
                                     <div class="sc_services_item_content">
-                                        <h4 class="sc_services_item_title"><a href="single-post.html">Profitability</a></h4>
+                                        <h4 class="sc_services_item_title"><a href="">Profitability</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="column-1_3 column_padding_bottom">
                                 <div class="sc_services_item">
                                     <div class="top_post_image">
-                                        <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_06.png"></a>
+                                        <a href=""><img alt="" class="services-post-image" src="images/min_service_06.png"></a>
                                     </div>
                                     <div class="sc_services_item_content">
-                                        <h4 class="sc_services_item_title"><a href="single-post.html">Efficiency</a></h4>
+                                        <h4 class="sc_services_item_title"><a href="">Efficiency</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="column-1_3 column_padding_bottom">
                                 <div class="sc_services_item">
                                     <div class="top_post_image">
-                                        <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_05.png"></a>
+                                        <a href=""><img alt="" class="services-post-image" src="images/min_service_05.png"></a>
                                     </div>
                                     <div class="sc_services_item_content">
-                                        <h4 class="sc_services_item_title"><a href="single-post.html">Liquidity</a></h4>
+                                        <h4 class="sc_services_item_title"><a href="">Liquidity</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="column-1_3 column_padding_bottom">
                                 <div class="sc_services_item">
                                     <div class="top_post_image">
-                                        <a href="single-post.html"><img alt="" class="services-post-image" src="images/min_service_04.png"></a>
+                                        <a href=""><img alt="" class="services-post-image" src="{{URL::asset('images/min_service_04.png')}}"></a>
                                     </div>
                                     <div class="sc_services_item_content">
-                                        <h4 class="sc_services_item_title"><a href="single-post.html">Financial Crime</a></h4>
+                                        <h4 class="sc_services_item_title"><a href="">Financial Crime</a></h4>
                                     </div>
                                 </div>
                             </div>
