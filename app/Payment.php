@@ -16,33 +16,18 @@ class Payment extends Model
         $this->ch = null;
     }
 
-    /**
-     * Gets the current CoinPayments.net exchange rate. Output includes both crypto and fiat currencies.
-     * @param short If short == TRUE (the default), the output won't include the currency names and confirms needed to save bandwidth.
-     */
+
     public function GetRates($short = TRUE) {
         $short = $short ? 1:0;
         return $this->api_call('rates', array('short' => $short));
     }
 
-    /**
-     * Gets your current coin balances (only includes coins with a balance unless all = TRUE).<br />
-     * @param all If all = TRUE then it will return all coins, even those with a 0 balance.
-     */
+
     public function GetBalances($all = FALSE) {
         return $this->api_call('balances', array('all' => $all ? 1:0));
     }
 
-    /**
-     * Creates a basic transaction with minimal parameters.<br />
-     * See CreateTransaction for more advanced features.
-     * @param amount The amount of the transaction (floating point to 8 decimals).
-     * @param currency1 The source currency (ie. USD), this is used to calculate the exchange rate for you.
-     * @param currency2 The cryptocurrency of the transaction. currency1 and currency2 can be the same if you don't want any exchange rate conversion.
-     * @param address Optionally set the payout address of the transaction. If address is empty then it will follow your payout settings for that coin.
-     * @param ipn_url Optionally set an IPN handler to receive notices about this transaction. If ipn_url is empty then it will use the default IPN URL in your account.
-     * @param buyer_email Optionally (recommended) set the buyer's email so they can automatically claim refunds if there is an issue with their payment.
-     */
+
     public function CreateTransactionSimple($amount, $currency1, $currency2, $address='', $ipn_url='', $buyer_email='') {
         $req = array(
             'amount' => $amount,
@@ -60,11 +45,7 @@ class Payment extends Model
         return $this->api_call('create_transaction', $req);
     }
 
-    /**
-     * Creates an address for receiving payments into your CoinPayments Wallet.<br />
-     * @param currency The cryptocurrency to create a receiving address for.
-     * @param ipn_url Optionally set an IPN handler to receive notices about this transaction. If ipn_url is empty then it will use the default IPN URL in your account.
-     */
+
     public function GetCallbackAddress($currency, $ipn_url = '') {
         $req = array(
             'currency' => $currency,
@@ -73,14 +54,7 @@ class Payment extends Model
         return $this->api_call('get_callback_address', $req);
     }
 
-    /**
-     * Creates a withdrawal from your account to a specified address.<br />
-     * @param amount The amount of the transaction (floating point to 8 decimals).
-     * @param currency The cryptocurrency to withdraw.
-     * @param address The address to send the coins to.
-     * @param auto_confirm If auto_confirm is TRUE, then the withdrawal will be performed without an email confirmation.
-     * @param ipn_url Optionally set an IPN handler to receive notices about this transaction. If ipn_url is empty then it will use the default IPN URL in your account.
-     */
+
     public function CreateWithdrawal($amount, $currency, $address, $auto_confirm = FALSE, $ipn_url = '') {
         $req = array(
             'amount' => $amount,
@@ -92,13 +66,7 @@ class Payment extends Model
         return $this->api_call('create_withdrawal', $req);
     }
 
-    /**
-     * Creates a transfer from your account to a specified merchant.<br />
-     * @param amount The amount of the transaction (floating point to 8 decimals).
-     * @param currency The cryptocurrency to withdraw.
-     * @param merchant The merchant ID to send the coins to.
-     * @param auto_confirm If auto_confirm is TRUE, then the transfer will be performed without an email confirmation.
-     */
+
     public function CreateTransfer($amount, $currency, $merchant, $auto_confirm = FALSE) {
         $req = array(
             'amount' => $amount,
@@ -109,13 +77,7 @@ class Payment extends Model
         return $this->api_call('create_transfer', $req);
     }
 
-    /**
-     * Creates a transfer from your account to a specified $PayByName tag.<br />
-     * @param amount The amount of the transaction (floating point to 8 decimals).
-     * @param currency The cryptocurrency to withdraw.
-     * @param pbntag The $PayByName tag to send funds to.
-     * @param auto_confirm If auto_confirm is TRUE, then the transfer will be performed without an email confirmation.
-     */
+    
     public function SendToPayByName($amount, $currency, $pbntag, $auto_confirm = FALSE) {
         $req = array(
             'amount' => $amount,

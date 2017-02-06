@@ -42,7 +42,7 @@
                         </div>
 
                         <div class="field">
-                            <label for="amount">Amount</label>
+                            <label for="amount">Amount (in USD)</label>
                             <input type="text" name="amount" id="amount">
                         </div>
 

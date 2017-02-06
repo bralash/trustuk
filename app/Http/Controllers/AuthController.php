@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\View;
 use Illuminate\Validation\Rules\In;
 
 class AuthController extends Controller
@@ -25,7 +26,7 @@ class AuthController extends Controller
     }
 
     public function registerIndex() {
-        if(Auth) {
+        if(Auth::check()) {
             return Redirect::to('/admin');
         } else {
             return View('register');
@@ -33,7 +34,7 @@ class AuthController extends Controller
     }
 
     public function depositIndex() {
-        if(Auth) {
+        if(Auth::check()) {
             return Redirect::to('/admin');
         } else {
             return View('deposit');
@@ -90,25 +91,38 @@ class AuthController extends Controller
         $cps = new Payment();
         $cps->Setup('082349C109c41ec80dCac85C3ff742ecA377CACDBc4832493322C62CF8BbF11d','49f40467efe71cee035f9f6e4d3cfcff5c8fe9523c0659e6b25880f5dfe7ea5e');
 
+        $amount = $request->input('amount');
+        $item = $request->input('plan');
+        $payment_method = $request->input('plan');
         $req = array(
-            'amount' => 10.00,
+            'amount' => $amount,
             'currency1' => 'USD',
             'currency2' => 'BTC',
             'address' => '331FqAmp4GPQ9TNrvR56XdchhkodJX9QGG ',
-            'item_name' => 'Test Item',
+            'item_name' => $item,
             'ipn_url' => 'https://trustukfundgroup.com/notify'
         );
 
         $result = $cps->CreateTransaction($req);
         if($result['error'] == 'ok') {
             $le = php_sapi_name() == 'cli' ? "\n" : '<br />';
-            print 'Transaction created with ID: ' .$result['result']['txn_id'].$le;
-            print 'Buyer should send '.sprintf('%.08f', $result['result']['amount']).'BTC'.$le;
-            print 'Status URL: '.$result['result']['status_url'].$le;
+            $txn_id = $result['result']['txn_id'];
+            $amt_to_send = sprintf('%.08f', $result['result']['amount']);
+            $status_url = $result['result']['status_url'];
+
+            return Redirect::to($status_url);
+
+//            return view('status', ['txn_id' => $txn_id, 'amount' => $amt_to_send, 'status_url' => $status_url]);
+
+//            print 'Transaction created with ID: ' .$result['result']['txn_id'].$le;
+//            print 'Buyer should send '.sprintf('%.08f', $result['result']['amount']).'BTC'.$le;
+//            print 'Status URL: '.$result['result']['status_url'].$le;
         } else {
             print 'Error: '.$result['error']."\n";
         }
     }
+
+    
 
     public function details(Request $request) {
         $userinfo = new UserInfo();
