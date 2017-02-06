@@ -38,3 +38,5 @@ Route::group(['prefix' => 'admin'], function() {
     Route::post('/deposit', ['uses' => 'AuthController@deposit']);
 });
 
+//For Internt Payment Notification
+Route::get('/notify', ['uses' => 'AuthController@notify']);
