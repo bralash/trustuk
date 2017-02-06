@@ -157,9 +157,9 @@ class AuthController extends Controller
             die('IPN Error: '.$error_msg);
         }
 
-//        if (!isset($_POST['ipn_mode']) || $_POST['ipn_mode'] != 'hmac') {
-//            errorAndDie('IPN Mode is not HMAC');
-//        }
+        if (!isset($_POST['ipn_mode']) || $_POST['ipn_mode'] != 'hmac') {
+            errorAndDie('IPN Mode is not HMAC');
+        }
 
         if (!isset($_SERVER['HTTP_HMAC']) || empty($_SERVER['HTTP_HMAC'])) {
             errorAndDie('No HMAC signature sent.');
