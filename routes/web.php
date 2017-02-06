@@ -39,4 +39,4 @@ Route::group(['prefix' => 'admin'], function() {
 });
 
 //For Internt Payment Notification
-Route::get('/notify', ['uses' => 'AuthController@notify']);
+Route::get('/notify', ['uses' => 'IPNController@index']);
