@@ -134,7 +134,7 @@ class AuthController extends Controller
         return Redirect::to('/admin');
     }
 
-    public function notify() {
+    public function notify(Request $request) {
 
         $cp_merchant_id = '42863d0d55797c9a02fa4318dae6a319';
         $cp_ipn_secret = 'trustukfund';
@@ -157,9 +157,9 @@ class AuthController extends Controller
             die('IPN Error: '.$error_msg);
         }
 
-        if (!isset($_POST['ipn_mode']) || $_POST['ipn_mode'] != 'hmac') {
-            errorAndDie('IPN Mode is not HMAC');
-        }
+//        if (!isset($_POST['ipn_mode']) || $_POST['ipn_mode'] != 'hmac') {
+//            errorAndDie('IPN Mode is not HMAC');
+//        }
 
         if (!isset($_SERVER['HTTP_HMAC']) || empty($_SERVER['HTTP_HMAC'])) {
             errorAndDie('No HMAC signature sent.');
