@@ -45,17 +45,17 @@
                             <div class="menu_pushy_wrap clearfix">
                                 <a class="menu_pushy_button icon-1460034782_menu2" href="#"></a>
                             </div>
-                            <ul class="menu_user_nav" id="menu_user">
-                                @if(Auth::check())
-                                    <li class="menu_user_register_login">
-                                        <a href="{{URL::to('/admin')}}" class="user"><i class="icon-user"></i> {{Auth::user()->name}}</a> <a class="popup_link popup_login_link icon-logout" href="{{URL::to('/auth/logout')}}">Logout</a>
-                                    </li>
-                                @else
-                                    <li class="menu_user_register_login">
-                                        <a class="popup_link popup_login_link icon-key-light" href="{{URL::to('/auth/login')}}">Login</a> or <a class="popup_link popup_register_link" href="{{URL::to('/auth/register')}}">Register</a>
-                                    </li>
-                                @endif
-                            </ul>
+                            {{--<ul class="menu_user_nav" id="menu_user">--}}
+                                {{--@if(Auth::check())--}}
+                                    {{--<li class="menu_user_register_login">--}}
+                                        {{--<a href="{{URL::to('/admin')}}" class="user"><i class="icon-user"></i> {{Auth::user()->name}}</a> <a class="popup_link popup_login_link icon-logout" href="{{URL::to('/auth/logout')}}">Logout</a>--}}
+                                    {{--</li>--}}
+                                {{--@else--}}
+                                    {{--<li class="menu_user_register_login">--}}
+                                        {{--<a class="popup_link popup_login_link icon-key-light" href="{{URL::to('/auth/login')}}">Login</a> or <a class="popup_link popup_register_link" href="{{URL::to('/auth/register')}}">Register</a>--}}
+                                    {{--</li>--}}
+                                {{--@endif--}}
+                            {{--</ul>--}}
                         </div>
                     </div>
                 </div>
@@ -171,19 +171,19 @@
                         </ul>
                     </nav>
 
-                    @if(Auth::check())
-                        <div class="login">
-                            <a href="{{URL::to('/admin')}}"><span class="user"><i class="icon-user"></i> {{Auth::user()->name}}</span></a>
-                            <a class="popup_link popup_login_link icon-logout" href="{{URL::to('/auth/logout')}}">logout</a>
-                        </div>
-                    @else
-                        <div class="login">
-                            <a class="popup_link popup_login_link icon-user" href="{{URL::to('/auth/login')}}">Login</a>
-                        </div>
-                        <div class="login">
-                            <a class="popup_link popup_register_link icon-pencil" href="{{URL::to('/auth/register')}}">Register</a>
-                        </div>
-                    @endif
+                    {{--@if(Auth::check())--}}
+                        {{--<div class="login">--}}
+                            {{--<a href="{{URL::to('/admin')}}"><span class="user"><i class="icon-user"></i> {{Auth::user()->name}}</span></a>--}}
+                            {{--<a class="popup_link popup_login_link icon-logout" href="{{URL::to('/auth/logout')}}">logout</a>--}}
+                        {{--</div>--}}
+                    {{--@else--}}
+                        {{--<div class="login">--}}
+                            {{--<a class="popup_link popup_login_link icon-user" href="{{URL::to('/auth/login')}}">Login</a>--}}
+                        {{--</div>--}}
+                        {{--<div class="login">--}}
+                            {{--<a class="popup_link popup_register_link icon-pencil" href="{{URL::to('/auth/register')}}">Register</a>--}}
+                        {{--</div>--}}
+                    {{--@endif--}}
 
                 </div>
                 <div class="panel_middle">

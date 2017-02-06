@@ -34,5 +34,7 @@ Route::group(['prefix' => 'auth'], function() {
 Route::group(['prefix' => 'admin'], function() {
     Route::get('/', ['uses' => 'AdminController@index', 'middleware' => 'auth']);
     Route::get('/deposit', ['uses' => 'AdminController@showDeposit']);
+
+    Route::post('/deposit', ['uses' => 'AuthController@deposit']);
 });
 

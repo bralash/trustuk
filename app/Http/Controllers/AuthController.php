@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+
 use Carbon\Carbon;
 use App\UserInfo;
 use App\User;
+use App\Payment;
 use Auth;
 use App\Deposit;
 use App\Client;
@@ -85,17 +87,27 @@ class AuthController extends Controller
     }
 
     public function deposit(Request $request) {
-        $deposit = new Deposit();
+        $cps = new Payment();
+        $cps->Setup('082349C109c41ec80dCac85C3ff742ecA377CACDBc4832493322C62CF8BbF11d','49f40467efe71cee035f9f6e4d3cfcff5c8fe9523c0659e6b25880f5dfe7ea5e');
 
-        $deposit->plan = $request->input('plan');
-        $deposit->payment_method = $request->input('payment_method');
-        $deposit->amount = $request->input('amount');
-        $deposit->user_id = Auth::user()->id;
+        $req = array(
+            'amount' => 10.00,
+            'currency1' => 'USD',
+            'currency2' => 'BTC',
+            'address' => '331FqAmp4GPQ9TNrvR56XdchhkodJX9QGG ',
+            'item_name' => 'Test Item',
+            'ipn_url' => 'https://trustukfundgroup.com/notify'
+        );
 
-        $deposit->save();
-
-        return Redirect::to('/auth/details');
-
+        $result = $cps->CreateTransaction($req);
+        if($result['error'] == 'ok') {
+            $le = php_sapi_name() == 'cli' ? "\n" : '<br />';
+            print 'Transaction created with ID: ' .$result['result']['txn_id'].$le;
+            print 'Buyer should send '.sprintf('%.08f', $result['result']['amount']).'BTC'.$le;
+            print 'Status URL: '.$result['result']['status_url'].$le;
+        } else {
+            print 'Error: '.$result['error']."\n";
+        }
     }
 
     public function details(Request $request) {

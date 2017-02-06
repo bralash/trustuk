@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bd742dfadeaad9f467c2089849b7b76b",
-    "content-hash": "0c89610fe07571066e524585c4adfe9d",
+    "hash": "281e02f28af3a2da4586f86748d8be7f",
+    "content-hash": "fbe3663788f5f1b0de780a58a7a48d7f",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1145,6 +1145,43 @@
                 "php"
             ],
             "time": "2016-12-06 11:30:35"
+        },
+        {
+            "name": "oteroweb/laravelcoinpayment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oteroweb/laravelcoinpayments.git",
+                "reference": "d220e3191126e194a9ca986fa35ae41398ec5402"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oteroweb/laravelcoinpayments/zipball/d220e3191126e194a9ca986fa35ae41398ec5402",
+                "reference": "d220e3191126e194a9ca986fa35ae41398ec5402",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HelloWorld\\": "src",
+                    "oteroweb\\LaravelCoinPayment\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "oteroweb",
+                    "email": "oterolopez1990@gmail.com"
+                }
+            ],
+            "description": "For use Coinpayment in laravel Framework",
+            "time": "2016-12-25 07:08:18"
         },
         {
             "name": "paragonie/random_compat",
@@ -3860,7 +3897,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "oteroweb/laravelcoinpayment": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
