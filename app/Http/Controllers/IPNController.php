@@ -86,7 +86,6 @@ class IPNController extends Controller
 //        die('IPN OK');
 
 
-        $input = Input::all();
-        return $input;
+        return $request->all();
     }
 }
