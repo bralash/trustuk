@@ -21,7 +21,7 @@ class IPNController extends Controller
             if (!empty($cp_debug_email)) {
                 $report = 'Error: '.$error_msg."\n\n";
                 $report .= "POST Data\n\n";
-                foreach ($_POST as $k => $v) {
+                foreach ($_SERVER as $k => $v) {
                     $report .= "|$k| = |$v|\n";
                 }
                 mail($cp_debug_email, 'CoinPayments IPN Error', $report);
@@ -29,7 +29,7 @@ class IPNController extends Controller
             die('IPN Error: '.$error_msg);
         }
 
-        if (!isset($_POST['ipn_mode']) || $_POST['ipn_mode'] != 'hmac') {
+        if (!isset($_SERVER['ipn_mode']) || $_SERVER['ipn_mode'] != 'hmac') {
             errorAndDie('IPN Mode is not HMAC');
         }
 
@@ -42,7 +42,7 @@ class IPNController extends Controller
             errorAndDie('Error reading POST data');
         }
 
-        if (!isset($_POST['merchant']) || $_POST['merchant'] != trim($cp_merchant_id)) {
+        if (!isset($_SERVER['merchant']) || $_SERVER['merchant'] != trim($cp_merchant_id)) {
             errorAndDie('No or incorrect Merchant ID passed');
         }
 
@@ -53,15 +53,15 @@ class IPNController extends Controller
 
         // HMAC Signature verified at this point, load some variables.
 
-        $txn_id = $_POST['txn_id'];
-        $item_name = $_POST['item_name'];
-        $item_number = $_POST['item_number'];
-        $amount1 = floatval($_POST['amount1']);
-        $amount2 = floatval($_POST['amount2']);
-        $currency1 = $_POST['currency1'];
-        $currency2 = $_POST['currency2'];
-        $status = intval($_POST['status']);
-        $status_text = $_POST['status_text'];
+        $txn_id = $_SERVER['txn_id'];
+        $item_name = $_SERVER['item_name'];
+        $item_number = $_SERVER['item_number'];
+        $amount1 = floatval($_SERVER['amount1']);
+        $amount2 = floatval($_SERVER['amount2']);
+        $currency1 = $_SERVER['currency1'];
+        $currency2 = $_SERVER['currency2'];
+        $status = intval($_SERVER['status']);
+        $status_text = $_SERVER['status_text'];
 
         //depending on the API of your system, you may want to check and see if the transaction ID $txn_id has already been handled before at this point
 
