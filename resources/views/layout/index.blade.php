@@ -48,7 +48,7 @@
                             <ul class="menu_user_nav" id="menu_user">
                                 @if(Auth::check())
                                     <li class="menu_user_register_login">
-                                        <a class="user"><i class="icon-user"></i> {{Auth::user()->name}}</a> <a class="popup_link popup_login_link icon-logout" href="{{URL::to('/auth/logout')}}">Logout</a>
+                                        <a href="{{URL::to('/admin')}}" class="user"><i class="icon-user"></i> {{Auth::user()->name}}</a> <a class="popup_link popup_login_link icon-logout" href="{{URL::to('/auth/logout')}}">Logout</a>
                                     </li>
                                 @else
                                     <li class="menu_user_register_login">

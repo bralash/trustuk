@@ -23,11 +23,19 @@ class AuthController extends Controller
     }
 
     public function registerIndex() {
-        return View('register');
+        if(Auth) {
+            return Redirect::to('/admin');
+        } else {
+            return View('register');
+        }
     }
 
     public function depositIndex() {
-        return View('deposit');
+        if(Auth) {
+            return Redirect::to('/admin');
+        } else {
+            return View('deposit');
+        }
     }
 
     public function detailsIndex() {
@@ -86,7 +94,7 @@ class AuthController extends Controller
 
         $deposit->save();
 
-        return Redirect::to('/details');
+        return Redirect::to('/auth/details');
 
     }
 
