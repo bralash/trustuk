@@ -100,7 +100,8 @@ class AuthController extends Controller
             'currency2' => 'BTC',
             'address' => '331FqAmp4GPQ9TNrvR56XdchhkodJX9QGG ',
             'item_name' => $item,
-            'ipn_url' => 'https://trustukfundgroup.com/notify'
+            'ipn_url' => 'https://trustukfundgroup.com/notify',
+            'ipn_mode' => 'HMAC'
         );
 
         $result = $cps->CreateTransaction($req);
