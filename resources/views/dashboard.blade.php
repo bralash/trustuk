@@ -7,7 +7,7 @@
             <div class="stat light-blue">
                 <span class="top">
                     @if($deposit)
-                        ${{$deposit->amount}}
+                        $0.00
                     @else
                         $0.00
                     @endif
@@ -33,7 +33,7 @@
             <div class="stat green-shade">
                 <span class="top">
                     @if($deposit)
-                        ${{$deposit->amount}}
+                        $0.00
                     @else
                         $0.00
                     @endif

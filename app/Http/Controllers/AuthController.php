@@ -9,8 +9,6 @@ use App\User;
 use App\Payment;
 use Auth;
 use App\Deposit;
-use App\Client;
-use Dotenv\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Input;
@@ -88,6 +86,14 @@ class AuthController extends Controller
     }
 
     public function deposit(Request $request) {
+        $deposit = new Deposit();
+        $deposit->plan = $request->input('plan');
+        $deposit->payment_method = $request->input('payment_method');
+        $deposit->amount = $request->input('amount');
+        $deposit->user_id = Auth::user()->id;
+
+        $deposit->save();
+
         $cps = new Payment();
         $cps->Setup('84Aa2957481111e81cb6D622Fb5CDA0dE95C24285E6b0B5bBcF2aeF4a89e4f5d','b6860d5ed64be6a3b504d6153c5631b83bd6473b2383315b1cc16ab177de2672');
 
@@ -103,6 +109,8 @@ class AuthController extends Controller
             'ipn_url' => 'https://trustukfundgroup.com/notify',
             'ipn_mode' => 'HMAC'
         );
+
+
 
         $result = $cps->CreateTransaction($req);
         if($result['error'] == 'ok') {
