@@ -34,8 +34,10 @@ Route::group(['prefix' => 'auth'], function() {
 Route::group(['prefix' => 'admin'], function() {
     Route::get('/', ['uses' => 'AdminController@index', 'middleware' => 'auth']);
     Route::get('/deposit', ['uses' => 'AdminController@showDeposit']);
+    Route::get('/profile', ['uses' => 'AdminController@profile']);
 
     Route::post('/deposit', ['uses' => 'AuthController@deposit']);
+    Route::post('/profile', ['uses' => 'AdminController@storeProfile']);
 });
 
 //For Internt Payment Notification

@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
+use App\UserInfo;
 use Auth;
 use App\Deposit;
 use Illuminate\Http\Request;
@@ -37,6 +39,20 @@ class AdminController extends Controller
         $deposit->save();
 
         Redirect::to('/admin/deposit');
+    }
+
+    public function profile() {
+        $user_info = UserInfo::where('user_id', Auth::user()->id)->get()->first();
+        return View('profile', compact('user_info'));
+    }
+
+    public function storeProfile(Request $request) {
+        $userinfo = new UserInfo();
+        $data = Input::except('_token');
+        $data['created_at'] = Carbon::now();
+        $data['updated_at'] = Carbon::now();
+        $userinfo::insert($data);
+        return Redirect::to('/admin');
     }
 
 

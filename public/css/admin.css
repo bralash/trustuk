@@ -74,7 +74,8 @@ section.page-wrapper .side-menu {
 .stat .label {
     text-transform: uppercase;
 }
-.deposit-wrapper {
+.deposit-wrapper,
+.profile-wrapper{
     width: 500px;
     background: #fff;
     box-shadow: 0px 1px 10px rgba(0,0,0,.2);
@@ -106,4 +107,7 @@ section.page-wrapper .side-menu {
 }
 .deposit-wrapper .field select {
     cursor: pointer;
+}
+.profile-wrapper {
+    width: 600px;
 }

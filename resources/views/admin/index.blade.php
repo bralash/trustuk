@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="{{URL::asset('css/semantic.css')}}">
     <link rel="stylesheet" href="{{URL::asset('css/entypo/css/entypo.css')}}">
     <link rel="stylesheet" href="{{URL::asset('css/admin.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('css/pure.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('css/pure-responsive.css')}}">
     <link href="{{URL::asset('images/fav.png')}}" rel="icon" sizes="192x192">
 </head>
 <body>
@@ -18,6 +20,7 @@
                 </a>
             </div>
             <ul>
+                <li><a href="{{URL::to('/admin/profile')}}"><i class="entypo-user"></i> Profile</a></li>
                 <li><a href="{{URL::to('/admin')}}"><i class="entypo-chart-bar"></i> Dashboard</a></li>
                 <li><a href="{{URL::to('/admin/deposit')}}"><i class="entypo-briefcase"></i> Make Deposit</a></li>
                 <li><a href="{{URL::to('/')}}" target="_blank"><i class="entypo-globe"></i> Main Site</a></li>

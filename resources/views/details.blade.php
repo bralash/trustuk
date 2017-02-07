@@ -51,7 +51,7 @@
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="address">Address</label>
-                                    <input id="address" name="address" class="pure-u-23-24" type="email" required>
+                                    <input id="address" name="address" class="pure-u-23-24" type="text" required>
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
