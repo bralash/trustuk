@@ -11,7 +11,7 @@
         </div>
         <div class="column">
             <div class="stat blue-shade">
-                <span class="top">$10.00</span>
+                <span class="top">${{$deposit->amount}}</span>
                 <span class="label">Current Investment</span>
             </div>
         </div>

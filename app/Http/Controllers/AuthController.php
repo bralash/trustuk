@@ -82,14 +82,16 @@ class AuthController extends Controller
         if(Auth::attempt($userData)) {
             return Redirect::to('/auth/deposit');
         } else {
-            return Redirect::to('/auth/register');
+            return Redirect::to('/auth/login');
         }
+
+        return Redirect::to('/auth/deposit');
 
     }
 
     public function deposit(Request $request) {
         $cps = new Payment();
-        $cps->Setup('082349C109c41ec80dCac85C3ff742ecA377CACDBc4832493322C62CF8BbF11d','49f40467efe71cee035f9f6e4d3cfcff5c8fe9523c0659e6b25880f5dfe7ea5e');
+        $cps->Setup('84Aa2957481111e81cb6D622Fb5CDA0dE95C24285E6b0B5bBcF2aeF4a89e4f5d','b6860d5ed64be6a3b504d6153c5631b83bd6473b2383315b1cc16ab177de2672');
 
         $amount = $request->input('amount');
         $item = $request->input('plan');
@@ -98,7 +100,7 @@ class AuthController extends Controller
             'amount' => $amount,
             'currency1' => 'USD',
             'currency2' => 'BTC',
-            'address' => '331FqAmp4GPQ9TNrvR56XdchhkodJX9QGG ',
+            'address' => '36rStVawj2f1dQyc2Gq6XBe9yfYgxnuUAF ',
             'item_name' => $item,
             'ipn_url' => 'https://trustukfundgroup.com/notify',
             'ipn_mode' => 'HMAC'
@@ -135,8 +137,6 @@ class AuthController extends Controller
     }
 
     public function notify(Request $request) {
-
         
-
     }
 }

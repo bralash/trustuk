@@ -66,15 +66,7 @@ class IPNController extends Controller
         //depending on the API of your system, you may want to check and see if the transaction ID $txn_id has already been handled before at this point
 
         // Check the original currency to make sure the buyer didn't change it.
-        if ($currency1 != $order_currency) {
-            errorAndDie('Original currency mismatch!');
-        }
-
-        // Check amount against order total
-        if ($amount1 < $order_total) {
-            errorAndDie('Amount is less than order total!');
-        }
-
+        
         if ($status >= 100 || $status == 2) {
             // payment is complete or queued for nightly payout, success
         } else if ($status < 0) {

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Auth;
 use App\Deposit;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
@@ -12,7 +13,14 @@ class AdminController extends Controller
     //
 
     public function index() {
-        return View('dashboard');
+        $amount = "";
+
+        if(Auth::check()) {
+            $deposit = Deposit::where('user_id', Auth::user()->id)->get()->first();
+            $sum = Deposit::where('user_id', Auth::user()->id);
+        }
+
+        return View('dashboard', compact('deposit'));
     }
 
     public function showDeposit() {
@@ -31,5 +39,5 @@ class AdminController extends Controller
         Redirect::to('/admin/deposit');
     }
 
-    
+
 }
