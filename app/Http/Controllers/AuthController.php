@@ -85,8 +85,6 @@ class AuthController extends Controller
             return Redirect::to('/auth/login');
         }
 
-        return Redirect::to('/auth/deposit');
-
     }
 
     public function deposit(Request $request) {
@@ -137,6 +135,6 @@ class AuthController extends Controller
     }
 
     public function notify(Request $request) {
-        
+
     }
 }
