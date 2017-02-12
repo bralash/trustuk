@@ -108,6 +108,12 @@ section.page-wrapper .side-menu {
 .deposit-wrapper .field select {
     cursor: pointer;
 }
+.deposit-wrapper .field img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height:250px;
+}
 .profile-wrapper {
     width: 600px;
 }

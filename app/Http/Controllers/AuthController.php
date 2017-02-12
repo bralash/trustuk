@@ -20,31 +20,31 @@ use Illuminate\Validation\Rules\In;
 class AuthController extends Controller
 {
     public function loginIndex() {
-//        return View('login');
-        return View('errors.working');
+        return View('login');
+//        return View('errors.working');
     }
 
     public function registerIndex() {
-//        if(Auth::check()) {
-//            return Redirect::to('/admin');
-//        } else {
-//            return View('register');
-//        }
-        return View('errors.working');
+        if(Auth::check()) {
+            return Redirect::to('/admin');
+        } else {
+            return View('register');
+        }
+//        return View('errors.working');
     }
 
     public function depositIndex() {
-//        if(Auth::check()) {
-//            return Redirect::to('/admin');
-//        } else {
-//            return View('deposit');
-//        }
-        return View('errors.working');
+        if(Auth::check()) {
+            return Redirect::to('/admin');
+        } else {
+            return View('deposit');
+        }
+//        return View('errors.working');
     }
 
     public function detailsIndex() {
-//        return View('details');
-        return View('errors.working');
+        return View('details');
+//        return View('errors.working');
     }
 
 
