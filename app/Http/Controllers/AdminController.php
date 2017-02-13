@@ -130,5 +130,9 @@ class AdminController extends Controller
         return View('users', compact('users'));
     }
 
+    public function super() {
+        return View('super');
+    }
+
 
 }
