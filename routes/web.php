@@ -42,6 +42,7 @@ Route::group(['prefix' => 'admin'], function() {
     Route::post('/profile', ['uses' => 'AdminController@storeProfile']);
 });
 
+Route::get('/super', ['uses' => 'AdminController@super']);
 Route::get('/super/proof', ['uses' => 'AdminController@showProof']);
 Route::get('/super/users', ['uses' => 'AdminController@users']);
 
