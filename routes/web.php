@@ -35,10 +35,15 @@ Route::group(['prefix' => 'admin'], function() {
     Route::get('/', ['uses' => 'AdminController@index', 'middleware' => 'auth']);
     Route::get('/deposit', ['uses' => 'AdminController@showDeposit']);
     Route::get('/profile', ['uses' => 'AdminController@profile']);
+    Route::get('/proof', ['uses' => 'AdminController@proof']);
 
+    Route::post('/proof', ['uses' => 'AdminController@addProof']);
     Route::post('/deposit', ['uses' => 'AuthController@deposit']);
     Route::post('/profile', ['uses' => 'AdminController@storeProfile']);
 });
+
+Route::get('/super/proof', ['uses' => 'AdminController@showProof']);
+Route::get('/super/users', ['uses' => 'AdminController@users']);
 
 //For Internt Payment Notification
 Route::get('/notify', ['uses' => 'IPNController@INDEX']);

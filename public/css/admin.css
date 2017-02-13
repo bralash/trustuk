@@ -3,36 +3,44 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
 a {
     color: inherit;
 }
+
 img {
-    max-width:100%;
+    max-width: 100%;
 }
+
 section.page-wrapper {
     width: 100%;
     position: relative;
 }
+
 section.page-wrapper .side-menu {
     width: 280px;
     height: 100%;
     background: #4db6ac;
     position: fixed;
-    box-shadow: 0px 1px 1px rgba(0,0,0,.2);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, .2);
 }
+
 .side-menu .logo {
     width: 80%;
-    margin:80px auto;
+    margin: 80px auto;
 }
+
 .side-menu ul {
     list-style: none;
     margin-top: 150px;
 }
+
 .side-menu ul li {
     color: #ededed;
     font-size: 1.4rem;
     margin-bottom: 18px;
 }
+
 .side-menu ul li a:hover {
     color: #fff;
 }
@@ -40,45 +48,53 @@ section.page-wrapper .side-menu {
 .main-content {
     width: 980px;
     margin-left: 280px;
-    padding:80px 20px;
+    padding: 80px 20px;
 }
+
 .main-content h1.title {
     font-family: "Big John";
-    font-size:2rem;
+    font-size: 2rem;
     color: #717171;
 }
+
 .stat {
-    width:100%;
-    height:220px;
+    width: 100%;
+    height: 220px;
     background: #fff;
-    box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
     text-align: center;
     padding-top: 80px;
     color: #fff;
 }
+
 .stat.blue-shade {
     background: #4fc3f7;
 }
+
 .stat.green-shade {
     background: #4db6ac;
 }
+
 .stat.light-blue {
     background: #00bcd4;
 }
+
 .stat span.top {
     display: block;
     font-size: 3rem;
-    font-weight:lighter;
+    font-weight: lighter;
     margin-bottom: 20px;
 }
+
 .stat .label {
     text-transform: uppercase;
 }
+
 .deposit-wrapper,
-.profile-wrapper{
+.profile-wrapper {
     width: 500px;
     background: #fff;
-    box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
     padding: 10px;
 }
 
@@ -86,13 +102,11 @@ section.page-wrapper .side-menu {
     margin-bottom: 20px;
 }
 
-
-
 .deposit-wrapper .field label {
     display: block;
     text-transform: uppercase;
-    font-weight:bold;
-    font-size:0.9rem;
+    font-weight: bold;
+    font-size: 0.9rem;
 }
 
 .deposit-wrapper .field input,
@@ -105,15 +119,48 @@ section.page-wrapper .side-menu {
     border-radius: 0px;
     outline: none;
 }
+
 .deposit-wrapper .field select {
     cursor: pointer;
 }
+
 .deposit-wrapper .field img {
     display: block;
     margin: auto;
     width: 250px;
-    height:250px;
+    height: 250px;
 }
+
 .profile-wrapper {
     width: 600px;
+}
+
+ul.proof {
+    padding: 0px;
+}
+
+ul.proof li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    list-style: none;
+    background: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .2);
+    padding: 10px;
+}
+
+ul.proof li h2.name {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+ul.proof li span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+ul.proof li .image {
+    width: 240px;
+    margin-top: 10px;
 }

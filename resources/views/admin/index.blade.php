@@ -23,6 +23,7 @@
                 <li><a href="{{URL::to('/admin/profile')}}"><i class="entypo-user"></i> Profile</a></li>
                 <li><a href="{{URL::to('/admin')}}"><i class="entypo-chart-bar"></i> Dashboard</a></li>
                 <li><a href="{{URL::to('/admin/deposit')}}"><i class="entypo-briefcase"></i> Make Deposit</a></li>
+                <li><a href="{{URL::to('/admin/proof')}}"><i class="entypo-docs"></i> Proof of Payment</a></li>
                 <li><a href="{{URL::to('/')}}" target="_blank"><i class="entypo-globe"></i> Main Site</a></li>
                 <li><a href="{{URL::to('/auth/logout')}}"><i class="entypo-logout"></i> Logout</a></li>
             </ul>
