@@ -13,6 +13,7 @@
                 <label for="image">Choose image file</label>
                 <input type="file" name="image" required>
             </div>
+            <b style="color: tomato">Please size image shouldn't exceed 2MB</b>
 
             <button type="submit">Upload</button>
         </form>
