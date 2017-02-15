@@ -102,6 +102,7 @@ section.page-wrapper .side-menu {
 }
 .profile-wrapper.details p {
     color: #4db6ac;
+    text-transform: capitalize;
 }
 .profile-wrapper.details label {
     font-weight: bold;

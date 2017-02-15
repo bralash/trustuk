@@ -31,7 +31,7 @@ Route::group(['prefix' => 'auth'], function() {
     Route::post('/details', ['uses' => 'AuthController@details']);
 });
 
-Route::group(['prefix' => 'admin'], function() {
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::get('/', ['uses' => 'AdminController@index', 'middleware' => 'auth']);
     Route::get('/deposit', ['uses' => 'AdminController@showDeposit']);
     Route::get('/profile', ['uses' => 'AdminController@profile']);
