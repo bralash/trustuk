@@ -62,11 +62,12 @@ class AdminController extends Controller
     }
 
     public function profile() {
-        $user_info = UserInfo::where('user_id', Auth::user()->id)->first();
+        $user_id = Auth::user()->id;
+        $user_info = UserInfo::where('user_id', $user_id)->first();
         if(!empty($user_info)) {
-            return View('profile');
+            return View('profile-details', compact('user_info'));
         } else {
-            return View('profile', compact('user_info'));
+            return View('profile');
         }
 
     }
@@ -137,6 +138,12 @@ class AdminController extends Controller
 
     public function super() {
         return View('super');
+    }
+
+    public function details($id) {
+        $user_info = UserInfo::where('user_id', $id)->first();
+        $name = User::where('id', $id)->first();
+        return View('user-details',compact('user_info', 'name'));
     }
 
 

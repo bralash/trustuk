@@ -74,6 +74,9 @@ class AuthController extends Controller
         $user->email = $request->input('email');
         $user->password = Hash::make($request->input('password'));
         $user->referral = $request->input('referral');
+        $user->referral_name = $request->input('referral_name');
+        $user->plans = $request->input('plan');
+        $user->amount = $request->input('amount');
 
         $user->save();
 

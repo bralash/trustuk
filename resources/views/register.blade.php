@@ -42,6 +42,26 @@
                             <textarea name="referral" id="referral" cols="30" rows="10"></textarea>
                         </div>
 
+                        <div class="field">
+                            <label for="referral_name">Referral Name (if available)</label>
+                            <input type="text" name="referral_name" id="referral_name">
+                        </div>
+
+                        <div class="field">
+                            <label for="plan">Choose plan</label>
+                            <select name="plan" id="plan">
+                                <option value="TUF Exchange Traded Fund">TUF Exchange Traded Fund</option>
+                                <option value="TUF Starter">TUF Starter</option>
+                                <option value="TUF Fixed Maturity">TUF Fixed Maturity</option>
+                                <option value="Equity Fund of Funds">Equity Fund of Funds</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label for="amount">Amount to be deposited (in USD)</label>
+                            <input type="text" name="amount" id="amount">
+                        </div>
+
                         <button type="submit">Proceed</button>
                     </form>
                 </div>
