@@ -3,6 +3,9 @@
 @section('stats')
     <ul class="proof">
         @foreach($proofs as $proof)
+            <?php
+                $path = storage_path().'\proof\\'.$proof->image;
+            ?>
             <li>
                 <h2 class="name">{{$proof->name}}</h2>
                 <span><b>Email:</b> {{$proof->email}}</span>
@@ -11,7 +14,7 @@
                     <b>Image Link:</b>
                     <div class="image">
                         <a href="{{url('/')}}\proof\{{$proof->image}}" target="_blank">
-                            <img src="{{url('/')}}\proof\{{$proof->image}}" alt="Proof of payment">
+                            <img src="{{$path}}" alt="Proof of payment">
                         </a>
                     </div>
                 </span>

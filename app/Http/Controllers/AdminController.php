@@ -103,7 +103,7 @@ class AdminController extends Controller
         $file_tmp = $image[$name]['tmp_name'];
         $file_typ = $image[$name]['type'];
         $file_ext = pathinfo($file_name, PATHINFO_EXTENSION);
-        $target_dir = public_path('proof/');
+        $target_dir = storage_path('proof/');
         $temp = explode(".", $file_name);
 
         $filetoupload = $this->newfilename . '.' . end($temp);
@@ -128,6 +128,7 @@ class AdminController extends Controller
 
     public function showProof() {
         $proofs = Proof::orderBy('created_at', 'desc')->get();
+        
         return View('view-proof',compact('proofs'));
     }
 
