@@ -62,8 +62,13 @@ class AdminController extends Controller
     }
 
     public function profile() {
-        $user_info = UserInfo::where('user_id', Auth::user()->id)->get()->first();
-        return View('profile', compact('user_info'));
+        $user_info = UserInfo::where('user_id', Auth::user()->id)->first();
+        if(!empty($user_info)) {
+            return View('profile');
+        } else {
+            return View('profile', compact('user_info'));
+        }
+
     }
 
     public function storeProfile(Request $request) {
