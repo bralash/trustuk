@@ -13,7 +13,7 @@
                 <span>
                     <b>Image Link:</b>
                     <div class="image">
-                        <a href="{{url('/')}}\proof\{{$proof->image}}" target="_blank">
+                        <a href="{{$path}}" target="_blank">
                             <img src="{{$path}}" alt="Proof of payment">
                         </a>
                     </div>
