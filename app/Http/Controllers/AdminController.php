@@ -129,6 +129,7 @@ class AdminController extends Controller
     public function showProof() {
         $proofs = Proof::orderBy('created_at', 'desc')->get();
         
+
         return View('view-proof',compact('proofs'));
     }
 

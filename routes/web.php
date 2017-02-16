@@ -47,5 +47,12 @@ Route::get('/super/proof', ['uses' => 'AdminController@showProof']);
 Route::get('/super/users', ['uses' => 'AdminController@users']);
 Route::get('/super/{id}', ['uses' => 'AdminController@details']);
 
+Route::get('images/{image}', function($image = null) {
+    $path = storage_path(). '/proof/'. $image;
+    if(file_exists($path)) {
+        return response()->file($path);
+    }
+});
+
 //For Internt Payment Notification
 Route::get('/notify', ['uses' => 'IPNController@INDEX']);
