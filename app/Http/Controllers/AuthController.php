@@ -2,13 +2,14 @@
 
 namespace App\Http\Controllers;
 
-
+use Mail;
 use Carbon\Carbon;
 use App\UserInfo;
 use App\User;
 use App\Payment;
 use Auth;
 use App\Deposit;
+use App\Mail\UserCreated;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Input;
@@ -79,6 +80,9 @@ class AuthController extends Controller
         $user->amount = $request->input('amount');
 
         $user->save();
+
+        Mail::to($user)->send(new UserCreated($user->name));
+
 
         $userData = array(
             'email' => Input::get('email'),

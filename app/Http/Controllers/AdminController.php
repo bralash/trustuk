@@ -78,7 +78,9 @@ class AdminController extends Controller
         $data['created_at'] = Carbon::now();
         $data['updated_at'] = Carbon::now();
         $userinfo::insert($data);
-        return Redirect::to('/admin');
+
+        $proofResponse = 2;
+        return View('dashboard', compact('proofResponse'));
     }
 
     public function addProof(Request $request) {

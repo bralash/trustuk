@@ -7,8 +7,10 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class Trustuk extends Mailable
+class UserCreated extends Mailable
 {
+    public $user;
+
     use Queueable, SerializesModels;
 
     /**
@@ -16,9 +18,9 @@ class Trustuk extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($user)
     {
-        //
+        $this->user = $user;
     }
 
     /**
@@ -30,11 +32,12 @@ class Trustuk extends Mailable
     {
         $address = 'contact@trustukfundgroup.com';
         $name = 'Trustuk Fund';
-        $subject = 'Testing';
-        return $this->view('emails.Trustuk-found')
+        $subject = 'Trustuk Registration';
+
+        return $this->view('emails.registered')
             ->from($address, $name)
-            ->cc($address, $name)
-            ->bcc($address, $name)
+            // ->cc($address, $name)
+            // ->bcc($address, $name)
             ->replyTo($address, $name)
             ->subject($subject);
     }
