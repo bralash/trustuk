@@ -31,14 +31,12 @@ class AdminController extends Controller
     }
 
     public function index() {
-        $proofResponse = "";
-
         if(Auth::check()) {
             $deposit = Deposit::where('user_id', Auth::user()->id)->get()->first();
             $sum = Deposit::where('user_id', Auth::user()->id);
         }
 
-        return View('dashboard', compact('deposit','proofResponse'));
+        return View('make-deposit');
     }
 
     public function showDeposit() {
@@ -96,7 +94,7 @@ class AdminController extends Controller
 
         $proofResponse = 1;
 
-        return View('/dashboard', compact('proofResponse'));
+        return View('dashboard', compact('proofResponse'));
 
     }
 
